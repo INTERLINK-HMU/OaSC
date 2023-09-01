@@ -3,6 +3,7 @@ import json
 import os
 import os.path as osp
 
+
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -116,7 +117,7 @@ if __name__ == "__main__":
     
     
     #if(by_class):
-    if(os.path.exists(args.pickle)):
+    if(args.pickle and os.path.exists(args.pickle)):
 
         with open(args.pickle,'rb') as file:
             res_dict=pickle.load(file)
@@ -482,6 +483,7 @@ if __name__ == "__main__":
         print('HM s_max: %.2f '%(np.max(seen_accuracy)*100 ))
         print('HM un_max: %.2f '%(np.max(unseen_accuracy)*100))
         print('HM max: %.2f '%(np.max(hm_array)*100))
-        print('AUC : %.2f '%(area*100))        
-        with open(args.pickle, 'wb') as handle:
-            pickle.dump(res_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        print('AUC : %.2f '%(area*100))  
+        if(args.pickle):      
+            with open(args.pickle, 'wb') as handle:
+                pickle.dump(res_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)

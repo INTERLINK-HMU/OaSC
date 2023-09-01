@@ -12,7 +12,10 @@ dataset='osdd'
 VARIABLE='empty_open_folded_filled' 
 #VARIABLE='open_empty'
 test_dir="../datasets/osdd/test"
-embeddings='../embeddings/trgcn_seed_111_all_0503.pred'
+embeddings='../embeddings/osdd_emb.pred'
+embeddings='..//embeddings/trgcn_seed_111_osdd.pred' 
+embeddings='../embeddings/trgcn_seed_111_all_0503.pred' 
+
 #embeddings='..//embeddings/trgcn_seed_24_mit.pred'
 #embeddings='..//embeddings/trgcn_seed_111_osdd.pred'
 

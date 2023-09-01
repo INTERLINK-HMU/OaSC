@@ -12,7 +12,7 @@ embeddings='..//embeddings/trgcn_seed_111_osdd.pred'
 embeddings='../embeddings/trgcn_seed_111_all_0503.pred' ##osdd and mit #cgqa
 
 
-save_path="saved_chechkpoints/"
+save_path="saved_checkpoints/"
 num_epochs=350
 batch_size=32
 cuda_device=0

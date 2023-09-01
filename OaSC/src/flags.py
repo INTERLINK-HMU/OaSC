@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFo
 parser.add_argument("--cnn")
 parser.add_argument("--embs-pred")
 parser.add_argument("--seed", default=0, type=int)
-parser.add_argument("--pickle", default="./pickle_dict.pickle")
+parser.add_argument("--pickle", default=None)
 parser.add_argument("--batch", default=256, type=int)
 parser.add_argument("--log")
 parser.add_argument("--test-dir")

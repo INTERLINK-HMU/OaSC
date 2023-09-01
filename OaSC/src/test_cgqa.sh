@@ -3,15 +3,15 @@
 
 
 
-saved_weights_path="../saved_checkpoints/cgqa/epoch-349.pth"
+saved_weights_path="../saved_checkpoints/cgqa/finetuned_weights.pth"
 
-#saved_weights_path='./saved_chechkpoints/finetune-cgqa/epoch-99.pth'
-saved_weights_path='./saved_chechkpoints/finetune_cgqa/conceptnet_wordnet_hop1_thresh_10/epoch-49.pth'
+#saved_weights_path='./saved_chechkpoints/finetune-cgqa/epoch-99.pth'#
+#saved_weights_path='./saved_chechkpoints/finetune_cgqa/conceptnet_wordnet_hop1_thresh_10/epoch-349.pth'
 dataset='cgqa'
 VARIABLE='closed_filled_folded'
 #VARIABLE='open_empty'
 test_dir="../datasets/cgqa//test"
-embeddings='../embeddings/trgcn_seed_111_all_0503.pred'
+embeddings='../embeddings/cgqa_emb.pred'
 #embeddings='..//embeddings/trgcn_seed_24_cgqa.pred'
 
 graph_type='conceptnet_wordnet_hop1_thresh_10' 
