@@ -6,10 +6,7 @@ dataset='cgqa'
 VARIABLE='closed_folded_filled' 
 
 train_dir="../datasets/$dataset/train"
-embeddings='..//embeddings/trgcn_seed_111_osdd.pred' 
-#embeddings='..//embeddings/trgcn_seed_24_cgqa.pred' 
-
-embeddings='../embeddings/trgcn_seed_111_all_0503.pred' ##osdd and mit #cgqa
+embeddings='../embeddings/cgqa_emb.pred'
 
 
 save_path="saved_checkpoints/"

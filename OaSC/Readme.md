@@ -13,52 +13,155 @@ conda env create -f environment.yml
 conda activate AoSC
 ```
 
-Pre-requisites:
-- Download the datasets, the embeddings and the saved weights for the model [here](https://drive.google.com/file/d/1lFr0C1aTJsufXiQ3p_nhcU2ovC7MY_EW/view?usp=sharing) and then uncompress the  three files in your machine.
-- Update the paths for the datasets, embeddings and saved checkpoints paths in the sh files for testing and training.
+## Preperation:
+- Download the datasets, the KG, the embeddings and the saved weights for the model by openning a terminal and running the following script:
+
+```
+cd src
+bash download_data.sh
+```
 
 
-To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
+After the  script completes, the repo must have the following folder structure.
+
+<pre>
+
+./
+├── datasets
+│   ├── cgqa
+│   ├── mit_states
+│   └── osdd
+├── embeddings
+│   ├── cgqa_emb.pred
+│   ├── mit_emb.pred
+│   └── osdd_emb.pred
+├── environment.yml
+├── Material_for_save
+│   ├── datasets
+│   ├── saved_checkpoints
+│   └──split2
+├── Readme.md
+├── saved_checkpoints
+│   ├── cgqa
+│   ├── mit
+│   └── osdd
+└── src
+    ├── data
+    ├── download_data.sh
+    ├── finetune_cgqa.sh
+    ├── finetune_mit.sh
+    ├── finetune_osdd.sh
+    ├── finetune.py
+    ├── flags.py
+    ├── KG
+    ├── requirements2.yml
+    ├── requirements.txt
+    ├── test_cgqa.sh
+    ├── test_gnn.sh
+    ├── test_mit.sh
+    ├── test_osdd.sh
+    ├── test.py
+    ├── test.sh
+    ├── train_gnn.py
+    └── train_gnn.sh
+</pre>
+
+
+# Testing
+
+**OSDD  Dataset**
+
+- To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
+
 ```
 ./test_osdd.sh
 ```
 
-If you want to train (finetune) the model from scratch befor testing, run:
-```
-./finetune_osdd.sh
-```
+**CGQA-States  Dataset**
 
-Then adjust the path for the finetuned weights  in test_osdd.sh and run::
-```
-./test_osdd.sh
-```
+- To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
-To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 ```
 ./test_cgqa.sh
 ```
 
-If you want to train (finetune) the model from scratch befor testing, run:
-```
-./finetune_cgqa.sh
-```
+**MIT-States  Dataset**
 
-Then adjust the path for the finetuned weights  in test_cgqa.sh and run::
-```
-./test_cgqa.sh
-```
+- To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
-To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 ```
 ./test_mit.sh
 ```
 
-If you want to train (finetune) the model from scratch befor testing, run:
+
+# Training from scratch
+
+
+**Training of the GNN**
+
+- Run the following script to train the GNN:
+
+```
+./train_gnn.sh
+```
+
+
+**Embeddings Computation**
+
+- Run the following script to compute the embeddings:
+
+```
+./test_gnn.sh
+```
+
+
+**OSDD  Dataset**
+
+- Adjust the embeddings path in the finetune_osdd.sh script and then run it:
+
+
+
+```
+./finetune_osdd.sh
+```
+
+- Adjust the weights path in the test_osdd.sh script and then run it:
+
+
+```
+./test_osdd.sh
+```
+
+**CGQA-States  Dataset**
+
+- Adjust the embeddings path in the finetune_osdd.sh script and then run it:
+
+
+
+```
+./finetune_cgqa.sh
+```
+
+- Adjust the weights path in the test_osdd.sh script and then run it:
+
+
+```
+./test_cgqa.sh
+```
+
+**MIT-States  Dataset**
+
+- Adjust the embeddings path in the finetune_osdd.sh script and then run it:
+
+
+
 ```
 ./finetune_mit.sh
 ```
 
-Then adjust the path for the finetuned weights  in test_mit.sh and run::
+- Adjust the weights path in the test_osdd.sh script and then run it:
+
+
 ```
-././test_mit.sh
+./test_mit.sh
 ```

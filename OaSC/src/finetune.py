@@ -335,7 +335,8 @@ if __name__ == "__main__":
             optimizer.step()
 
 
-        if (epoch + 1)  == args.num_epochs:
+        # if (epoch + 1)  == args.num_epochs:
+        if (epoch + 1)%25  ==0:    
             torch.save(
                 model.state_dict(),
                 osp.join(save_path, "epoch-{}.pth".format(epoch)),

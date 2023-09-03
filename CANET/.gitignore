@@ -1,0 +1,5 @@
+datasets/
+logs/
+*.t7
+word embedding/
+figures/

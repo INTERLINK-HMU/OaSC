@@ -1,0 +1,23 @@
+---
+dataset:
+  data_dir: osdd/compcos_dif_val/
+  dataset: osdd
+  splitname: zero_shot_split1_tr_cw
+  name: zero_shot_split1_tr_cw
+  train_only: true
+model_params:
+  emb_type: word2vec
+  emb_split: generic
+  nhiddenlayers: 0
+  nlayer: 2
+  alpha: 0.4
+
+training:
+  batch_size: 256
+  lr: 5.0e-05
+  lrg: 5.0e-06 # Learning rete for image backbone if fine-tune the backbone
+  cosine_scale: 0.05
+  max_epochs: 1000
+  test_batch_size: 2048
+  update_image_features: false # Fine tune the image backbone?
+  update_word_features: true

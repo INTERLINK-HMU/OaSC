@@ -1,0 +1,140 @@
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/cgqa_obj/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+  Using resnet18 and feature file ./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/cgqa_states_object_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:00<00:00,  3.78it/s]
+tensor(1.) tensor(0.0027) tensor(0.0054) 0.052462503
+cgqa_split2_tr_object
+|----Test Finished: Attr Acc: 7.44% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 10.05%  | HM: 11.33% | AUC: 5.25%.| Seen Acc attr: 100.00% | Unseen Acc attr: 9.78 | HM_attr: 11.33% | AUC_attr: 5.25%
+=== Program terminated ===
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/cgqa_states/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+  Using resnet18 and feature file ./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/cgqa_states_generic_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:00<00:00,  3.76it/s]
+tensor(0.9478) tensor(0.0029) tensor(0.0057) 0.43568233
+cgqa_split2_tr_cw
+|----Test Finished: Attr Acc: 52.27% | Obj Acc: 55.79% | Seen Acc: 70.90% | Unseen Acc: 52.00%  | HM: 34.77% | AUC: 22.28%.| Seen Acc attr: 94.78% | Unseen Acc attr: 65.71 | HM_attr: 50.22% | AUC_attr: 43.57%
+=== Program terminated ===
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/cgqa_states_ow/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+  Using resnet18 and feature file ./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/cgqa_states_generic_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:00<00:00,  3.34it/s]
+tensor(0.9478) tensor(0.0029) tensor(0.0057) 0.24759063
+cgqa_split2_tr_ow
+|----Test Finished: Attr Acc: 39.26% | Obj Acc: 29.96% | Seen Acc: 67.91% | Unseen Acc: 28.57%  | HM: 21.71% | AUC: 9.92%.| Seen Acc attr: 95.52% | Unseen Acc attr: 30.57 | HM_attr: 40.77% | AUC_attr: 24.76%
+=== Program terminated ===
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/cgqa_obj_ow/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+  Using resnet18 and feature file ./datasets/cgqa_states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/cgqa_states_object_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:00<00:00,  3.45it/s]
+tensor(1.) tensor(0.) tensor(0.) 0.015261628
+cgqa_split2_tr_object_ow
+|----Test Finished: Attr Acc: 3.22% | Obj Acc: 100.00% | Seen Acc: 91.47% | Unseen Acc: 4.35%  | HM: 5.23% | AUC: 1.53%.| Seen Acc attr: 91.47% | Unseen Acc attr: 4.08 | HM_attr: 5.23% | AUC_attr: 1.53%
+=== Program terminated ===
