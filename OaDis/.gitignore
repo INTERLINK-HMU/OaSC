@@ -1,0 +1,6 @@
+datasets/
+logs/
+*.t7
+*.pth
+**/*.pth
+data/
