@@ -73,11 +73,11 @@ After the  script completes, the repo must have the following folder structure.
 - To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-python test.py --logpath "./logs/zero_shot_split1_tr_ow" --auc 
+python test.py --dataset osdd_obj --auc
 
-python test.py --logpath "./logs/zero_shot_split1_tr_cw" --auc 
+python test.py --dataset osdd_cw  --auc
 
-python test.py --logpath "./logs/zero_shot_split1_tr_object_ow" 
+python test.py --dataset osdd_ow  --auc
 
 
 ```
@@ -87,11 +87,11 @@ python test.py --logpath "./logs/zero_shot_split1_tr_object_ow"
 - To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-python test.py --logpath "./logs/cgqa_split2_tr_ow" 
+python test.py --dataset cgqa_obj --auc
 
-python test.py --logpath "./logs/cgqa_split2_tr_cw" 
+python test.py --dataset cgqa_states  --auc
 
-python test.py --logpath "./logs/cgqa_split2_tr_object_ow" 
+python test.py --dataset cgqa_ow  --auc 
 
 ```
 
@@ -100,11 +100,11 @@ python test.py --logpath "./logs/cgqa_split2_tr_object_ow"
 - To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
- python test.py --logpath "./logs/mit_split2_tr_ow" --auc 
+python test.py --dataset mit_obj --auc
 
- python test.py --logpath "./logs/mit_split2_tr_cw" --auc  
+python test.py --dataset mit_cw  --auc
 
- python test.py --logpath "./logs/mit_split2_tr_object_ow" 
+python test.py --dataset mitd_ow  --auc
 
 ```
 
