@@ -1,0 +1,3 @@
+ln -s /media/philippos/26eafc3b-724c-49dc-9a04-90056ad2e9f7/Exps_Code_839_WACV24/OaSC/Material_for_save/split2/datasets/cgqa_states/compcos_dif_val/resnet18_features.t7 datasets/cgqa_states/compcos_dif_val/resnet18_features.t7
+ln -s /media/philippos/26eafc3b-724c-49dc-9a04-90056ad2e9f7/Exps_Code_839_WACV24/OaSC/Material_for_save/split2/datasets/mit-states/compcos_dif_val/resnet18_features.t7 datasets/mit-states/compcos_dif_val/resnet18_features.t7
+ln -s /media/philippos/26eafc3b-724c-49dc-9a04-90056ad2e9f7/Exps_Code_839_WACV24/OaSC/Material_for_save/split2/datasets/osdd/compcos_dif_val/resnet18_features.t7 datasets/osdd/compcos_dif_val/resnet18_features.t7

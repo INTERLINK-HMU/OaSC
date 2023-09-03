@@ -1,0 +1,726 @@
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Fasttext Embeddings loaded, total embeddings: torch.Size([5, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([5, 300])
+Combined embeddings are  torch.Size([5, 600])
+Fasttext Embeddings loaded, total embeddings: torch.Size([13, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([13, 300])
+Combined embeddings are  torch.Size([13, 600])
+332551213
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Testing:   0%|          | 0/6 [00:00<?, ?it/s]Testing: 100%|██████████| 6/6 [00:00<00:00, 38.48it/s]
+results for experiment mit_split2_tr
+|----Test Finished: Attr Acc: 5.73% | Obj Acc: 21.20% | Seen Acc: 72.73% | Unseen Acc: 0.00%  | HM: 0.00% | AUC: 0.00%.| Seen Acc attr: 93.94% | Unseen Acc attr: 1.27 | HM_attr: 2.47% | AUC_attr: 0.52%
+Using only train pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Word2Vec Embeddings loaded, total embeddings: torch.Size([5, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([13, 300])
+332551213
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/6 [00:00<?, ?it/s]Testing: 100%|██████████| 6/6 [00:00<00:00, 67.23it/s]
+results for experiment mit_split2_tr_cw
+|----Test Finished: Attr Acc: 40.97% | Obj Acc: 25.79% | Seen Acc: 81.82% | Unseen Acc: 22.15%  | HM: 17.04% | AUC: 7.52%.| Seen Acc attr: 100.00% | Unseen Acc attr: 44.94 | HM_attr: 33.26% | AUC_attr: 23.81%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Word2Vec Embeddings loaded, total embeddings: torch.Size([5, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([1, 300])
+332551213
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/6 [00:00<?, ?it/s]Testing: 100%|██████████| 6/6 [00:00<00:00, 55.12it/s]
+results for experiment mit_split2_tr_object
+|----Test Finished: Attr Acc: 23.45% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 24.63%  | HM: 20.24% | AUC: 11.06%.| Seen Acc attr: 100.00% | Unseen Acc attr: 23.74 | HM_attr: 20.24% | AUC_attr: 11.03%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Word2Vec Embeddings loaded, total embeddings: torch.Size([5, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([1, 300])
+332551213
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/6 [00:00<?, ?it/s]Testing: 100%|██████████| 6/6 [00:00<00:00, 48.87it/s]
+results for experiment mit_split2_tr_object_ow
+|----Test Finished: Attr Acc: 50.28% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 52.82%  | HM: 36.42% | AUC: 25.84%.| Seen Acc attr: 100.00% | Unseen Acc attr: 52.23 | HM_attr: 36.42% | AUC_attr: 25.84%
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing:  27%|██▋       | 3/11 [00:00<00:00, 24.61it/s]Testing:  55%|█████▍    | 6/11 [00:00<00:00, 25.92it/s]Testing:  82%|████████▏ | 9/11 [00:00<00:00, 27.59it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 22.66it/s]
+results for experiment mit_split2_tr_tmn
+|----Test Finished: Attr Acc: 17.77% | Obj Acc: 18.34% | Seen Acc: 51.52% | Unseen Acc: 5.70%  | HM: 7.03% | AUC: 1.55%.| Seen Acc attr: 69.70% | Unseen Acc attr: 18.35 | HM_attr: 22.36% | AUC_attr: 6.31%
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing:  27%|██▋       | 3/11 [00:00<00:00, 25.24it/s]Testing:  64%|██████▎   | 7/11 [00:00<00:00, 28.01it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 28.93it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 23.30it/s]
+results for experiment mit_split2_cw_twn
+|----Test Finished: Attr Acc: 28.65% | Obj Acc: 29.51% | Seen Acc: 75.76% | Unseen Acc: 24.68%  | HM: 23.35% | AUC: 11.35%.| Seen Acc attr: 84.85% | Unseen Acc attr: 30.70 | HM_attr: 27.40% | AUC_attr: 16.12%
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing:  33%|███▎      | 4/12 [00:00<00:00, 30.38it/s]Testing:  67%|██████▋   | 8/12 [00:00<00:00, 29.20it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 30.79it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 25.05it/s]
+results for experiment mit_split2_tr_object_tmn
+|----Test Finished: Attr Acc: 10.17% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 17.80%  | HM: 17.73% | AUC: 10.41%.| Seen Acc attr: 100.00% | Unseen Acc attr: 17.80 | HM_attr: 17.73% | AUC_attr: 11.04%
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing:  25%|██▌       | 3/12 [00:00<00:00, 27.61it/s]Testing:  50%|█████     | 6/12 [00:00<00:00, 28.45it/s]Testing:  83%|████████▎ | 10/12 [00:00<00:00, 30.08it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 24.64it/s]
+results for experiment mit_split2_tr_object_ow_tmn
+|----Test Finished: Attr Acc: 7.06% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 7.42%  | HM: 0.00% | AUC: 3.71%.| Seen Acc attr: 100.00% | Unseen Acc attr: 0.00 | HM_attr: 0.00% | AUC_attr: 0.00%
+Using only train pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 74.32it/s]
+results for experiment mit_split2_tr_le+
+|----Test Finished: Attr Acc: 20.92% | Obj Acc: 4.01% | Seen Acc: 21.21% | Unseen Acc: 1.90%  | HM: 0.00% | AUC: 0.20%.| Seen Acc attr: 48.48% | Unseen Acc attr: 0.00 | HM_attr: 0.00% | AUC_attr: 0.00%
+Using only train pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 63.86it/s]
+results for experiment mit_split2_cw_le+
+|----Test Finished: Attr Acc: 19.20% | Obj Acc: 9.17% | Seen Acc: 18.18% | Unseen Acc: 9.49%  | HM: 6.49% | AUC: 0.93%.| Seen Acc attr: 63.64% | Unseen Acc attr: 14.56 | HM_attr: 20.26% | AUC_attr: 7.08%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 113.52it/s]
+results for experiment mit_split2_tr_object_le+
+|----Test Finished: Attr Acc: 19.77% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 20.77%  | HM: 19.38% | AUC: 10.01%.| Seen Acc attr: 100.00% | Unseen Acc attr: 20.47 | HM_attr: 19.38% | AUC_attr: 10.00%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 104.73it/s]
+results for experiment mit_split2_tr_object_ow_le+
+|----Test Finished: Attr Acc: 7.63% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 8.01%  | HM: 0.00% | AUC: 4.01%.| Seen Acc attr: 100.00% | Unseen Acc attr: 0.00 | HM_attr: 0.00% | AUC_attr: 0.00%
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing:  36%|███▋      | 4/11 [00:00<00:00, 34.63it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 36.59it/s]
+results for experiment mit_split2_tr_symnet
+|----Test Finished: Attr Acc: 10.03% | Obj Acc: 7.16% | Seen Acc: 90.91% | Unseen Acc: 0.00%  | HM: 0.00% | AUC: 0.00%.| Seen Acc attr: 96.97% | Unseen Acc attr: 0.95 | HM_attr: 1.88% | AUC_attr: 0.31%
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 96.03it/s]
+results for experiment mit_split2_tr_cw_symnet
+|----Test Finished: Attr Acc: 25.21% | Obj Acc: 28.37% | Seen Acc: 84.85% | Unseen Acc: 22.15%  | HM: 22.32% | AUC: 10.71%.| Seen Acc attr: 96.97% | Unseen Acc attr: 27.53 | HM_attr: 26.84% | AUC_attr: 15.68%
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 94.15it/s]
+results for experiment mit_split2_tr_obj_symnet
+|----Test Finished: Attr Acc: 32.20% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 33.83%  | HM: 25.34% | AUC: 16.15%.| Seen Acc attr: 100.00% | Unseen Acc attr: 32.64 | HM_attr: 25.34% | AUC_attr: 16.12%
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Glove Embeddings loaded, total embeddings: torch.Size([5, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 107.59it/s]
+results for experiment mit_split2_tr_obj_ow_symnet
+|----Test Finished: Attr Acc: 20.90% | Obj Acc: 100.00% | Seen Acc: 94.12% | Unseen Acc: 21.96%  | HM: 23.18% | AUC: 13.27%.| Seen Acc attr: 94.12% | Unseen Acc attr: 21.36 | HM_attr: 23.18% | AUC_attr: 13.25%
+Using only train pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Initializing classifiers
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 96.00it/s]
+results for experiment mit_split2_tr_aopp
+|----Test Finished: Attr Acc: 8.02% | Obj Acc: 8.88% | Seen Acc: 12.12% | Unseen Acc: 0.63%  | HM: 0.00% | AUC: 0.02%.| Seen Acc attr: 36.36% | Unseen Acc attr: 4.75 | HM_attr: 8.40% | AUC_attr: 1.32%
+Using only train pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Initializing classifiers
+Glove Embeddings loaded, total embeddings: torch.Size([13, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/11 [00:00<?, ?it/s]Testing: 100%|██████████| 11/11 [00:00<00:00, 87.20it/s]
+results for experiment mit_split2_tr_cw_aopp
+|----Test Finished: Attr Acc: 23.21% | Obj Acc: 8.60% | Seen Acc: 21.21% | Unseen Acc: 8.54%  | HM: 8.32% | AUC: 1.35%.| Seen Acc attr: 51.52% | Unseen Acc attr: 25.00 | HM_attr: 22.07% | AUC_attr: 9.23%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Initializing classifiers
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 111.75it/s]
+results for experiment mit_split2_tr_obj_aopp
+|----Test Finished: Attr Acc: 55.37% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 58.16%  | HM: 37.50% | AUC: 30.79%.| Seen Acc attr: 100.00% | Unseen Acc attr: 55.79 | HM_attr: 37.50% | AUC_attr: 30.72%
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using resnet18 and feature file ./datasets/mit-states/compcos_dif_val/resnet18_featurers.t7
+torch._utils
+collections
+63440 activations loaded
+Initializing classifiers
+Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
+1321
+collections
+torch._utils
+numpy.core.multiarray
+numpy
+_codecs
+Evaluating with test pairs
+Testing:   0%|          | 0/12 [00:00<?, ?it/s]Testing: 100%|██████████| 12/12 [00:00<00:00, 98.62it/s]
+results for experiment mit_split2_tr_obj_ow_aopp
+|----Test Finished: Attr Acc: 11.30% | Obj Acc: 100.00% | Seen Acc: 100.00% | Unseen Acc: 11.87%  | HM: 12.92% | AUC: 6.72%.| Seen Acc attr: 100.00% | Unseen Acc attr: 11.28 | HM_attr: 12.92% | AUC_attr: 6.72%
