@@ -65,46 +65,88 @@ After the  script completes, the repo must have the following folder structure.
 </pre> -->
 
 
-# Testing
+## Testing
+
+- To reproduce the reported results run in the terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
+
 
 **OSDD  Dataset**
 
-- To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
+```
+python test.py --cfg config/osdd_obj_ow.yml --load saved_models/osdd_obj/osdd_obj_ow_124/best.pth 
+
+python test.py --cfg config/osdd_ow.yml --load saved_models/osdd_ow/osdd_ow_124/best.pth
+
+python test.py --cfg config/osdd_cw.yml --load saved_models/osdd_cw/osdd_cw_124/best.pth 
 
 ```
-python test.py --logpath "./logs/zero_shot_split1_tr_ow" --auc 
 
-python test.py --logpath "./logs/zero_shot_split1_tr_cw" --auc 
+**CGQA-States  Dataset**
 
-python test.py --logpath "./logs/zero_shot_split1_tr_object" --auc 
+```
+python test.py --cfg config/cgqa_ow.yml --load saved_models/cgqa_ow/cgqa_cw_124/best.pth     
+
+python test.py --cfg config/cgqa_cw.yml --load saved_models/cgqa_cw/cgqa_cw_124/best.pth     
+
+python test.py --cfg config/cgqa_obj_ow.yml --load saved_models/cgqa_obj/cgqa_obj_ow_124/best.pth  
+
+```
+
+**MIT-States  Dataset**
+
+```
+python test.py --cfg config/mit_obj_ow.yml --load saved_models/mit_obj/mit_obj_ow_124/best.pth 
+
+python test.py --cfg config/mit_ow.yml --load saved_models/mit_ow/mit_ow_124/best.pth 
+
+python test.py --cfg config/mit_cw.yml --load saved_models/mit_cw/mit_cw_124/best.pth 
+
+```
+
+
+
+## Training from scratch
+
+
+- To train the model from scratch, run in the terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
+
+
+**OSDD  Dataset**
+
+```
+python train.py --cfg configs/osdd_obj_ow.yml
+
+python train.py --cfg configs/osdd_ow.yml
+
+python train.py --cfg configs/osdd_cw.yml
 
 
 ```
 
 **CGQA-States  Dataset**
 
-- To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
-python test.py --logpath "./logs/cgqa_split2_tr_ow" --auc 
+python train.py --cfg configs/cgqa_obj_ow.yml
 
-python test.py --logpath "./logs/cgqa_split2_tr_cw"  --auc 
+python train.py --cfg configs/cgqa_ow.yml
 
-python test.py --logpath "./logs/cgqa_split2_tr_object" --auc 
-
+python train.py --cfg configs/cgqa_cw.yml
 ```
 
 **MIT-States  Dataset**
 
-- To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
- python test.py --logpath "./logs/mit_split2_tr_ow" --auc 
+python train.py --cfg configs/mit_obj_ow.yml
 
- python test.py --logpath "./logs/mit_split2_tr_cw" --auc  
+python train.py --cfg configs/mit_ow.yml
 
- python test.py --logpath "./logs/mit_split2_tr_object"  --auc 
-
+python train.py --cfg configs/mit_cw.yml
 ```
+
+
 
 

@@ -65,46 +65,83 @@ After the  script completes, the repo must have the following folder structure.
 </pre> -->
 
 
-# Testing
+## Testing
+
+-To reproduce the reported results  run in a terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
 
 **OSDD  Dataset**
 
-- To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
-python test.py --logpath "./logs/zero_shot_split1_tr_ow" --auc 
+python test.py --logpath logs/IVR/osdd --auc 
 
-python test.py --logpath "./logs/zero_shot_split1_tr_cw" --auc 
+python test.py --logpath logs/IVR/osdd_ow --auc 
 
-python test.py --logpath "./logs/zero_shot_split1_tr_object_ow" 
+python test.py --logpath logs/IVR/osdd_cw --auc 
 
 
 ```
 
 **CGQA-States  Dataset**
 
-- To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
-python test.py --logpath "./logs/cgqa_split2_tr_ow" 
+python test.py --logpath logs/IVR/cgqa_obj --auc 
 
-python test.py --logpath "./logs/cgqa_split2_tr_cw" 
+python test.py --logpath logs/IVR/cgqa_ow --auc 
 
-python test.py --logpath "./logs/cgqa_split2_tr_object_ow" 
-
+python test.py --logpath logs/IVR/cgqa_cw --auc 
 ```
 
 **MIT-States  Dataset**
 
-- To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
- python test.py --logpath "./logs/mit_split2_tr_ow" --auc 
+python test.py --logpath logs/IVR/mit_obj --auc 
 
- python test.py --logpath "./logs/mit_split2_tr_cw" --auc  
+python test.py --logpath logs/IVR/mit_ow --auc 
 
- python test.py --logpath "./logs/mit_split2_tr_object_ow" 
-
+python test.py --logpath logs/IVR/mit_cw --auc
 ```
 
+
+
+## Training from scratch
+
+
+- To train the model from scratch, run in the terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
+
+
+**OSDD  Dataset**
+
+```
+python train.py --config configs/osdd_obj.yml
+
+python train.py --config configs/osdd_ow.yml
+
+python train.py --config configs/osdd_cw.yml
+
+
+```
+
+**CGQA-States  Dataset**
+
+```
+ython train.py --config configs/cgqa_obj.yml
+
+python train.py --config configs/cgqa_ow.yml
+
+python train.py --config configs/cgqa_cw.yml
+```
+
+**MIT-States  Dataset**
+
+```
+ython train.py --config configs/mit_obj.yml
+
+python train.py --config configs/mit_ow.yml
+
+python train.py --config configs/mit_cw.yml
+```
 

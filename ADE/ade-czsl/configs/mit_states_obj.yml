@@ -1,7 +1,7 @@
 dataset:
   data_dir: mit-states/compcos_dif_val/
   dataset: mit-states
-  open_world: false
+  open_world: true
   splitname: mit_split2_tr_object
 experiment:
   name: mit_split2_tr_object

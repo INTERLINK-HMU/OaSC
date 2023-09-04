@@ -19,6 +19,7 @@ conda activate AoSC
 ```
 cd src
 bash download_data.sh
+
 ```
 
 
@@ -67,14 +68,15 @@ After the  script completes, the repo must have the following folder structure.
 </pre>
 
 
-# Testing
+## Testing
 
 **OSDD  Dataset**
 
 - To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_osdd.sh
+bash  test_osdd.sh
+
 ```
 
 **CGQA-States  Dataset**
@@ -82,7 +84,8 @@ After the  script completes, the repo must have the following folder structure.
 - To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_cgqa.sh
+bash  test_cgqa.sh
+
 ```
 
 **MIT-States  Dataset**
@@ -90,11 +93,12 @@ After the  script completes, the repo must have the following folder structure.
 - To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_mit.sh
+bash  test_mit.sh
+
 ```
 
 
-# Training from scratch
+## Training from scratch
 
 
 **Training of the GNN**
@@ -102,7 +106,8 @@ After the  script completes, the repo must have the following folder structure.
 - Run the following script to train the GNN:
 
 ```
-./train_gnn.sh
+bash train_gnn.sh
+
 ```
 
 
@@ -111,7 +116,8 @@ After the  script completes, the repo must have the following folder structure.
 - Run the following script to compute the embeddings:
 
 ```
-./test_gnn.sh
+bash  test_gnn.sh
+
 ```
 
 
@@ -122,14 +128,16 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_osdd.sh
+bash  finetune_osdd.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_osdd.sh
+bash  test_osdd.sh
+
 ```
 
 **CGQA-States  Dataset**
@@ -139,14 +147,16 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_cgqa.sh
+bash  finetune_cgqa.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_cgqa.sh
+bash  test_cgqa.sh
+
 ```
 
 **MIT-States  Dataset**
@@ -156,12 +166,14 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_mit.sh
+bash  finetune_mit.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_mit.sh
+bash  test_mit.sh
+
 ```

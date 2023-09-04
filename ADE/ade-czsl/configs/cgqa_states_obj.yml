@@ -4,7 +4,7 @@ dataset:
   splitname: cgqa_split2_tr_object
 experiment:
   name: cgqa_split2_tr_object
-  open_world: false
+  open_world: true
 model_params:
   model: ade
   dropout: true

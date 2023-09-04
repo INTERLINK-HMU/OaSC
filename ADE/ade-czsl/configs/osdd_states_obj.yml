@@ -2,7 +2,7 @@ dataset:
   data_dir: osdd/compcos_dif_val/
   dataset: osdd
   splitname: zero_shot_split1_tr_object
-  open_world: false
+  open_world: true
 experiment:
   name: zero_shot_split1_tr_object
 model_params:

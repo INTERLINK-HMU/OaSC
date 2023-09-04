@@ -1,4 +1,4 @@
-cuda_device=1
+cuda_device=0
 
 
 

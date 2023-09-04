@@ -1,726 +1,0 @@
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:   1%|          | 2/165 [00:00<00:10, 15.23it/s]Testing:   3%|▎         | 5/165 [00:00<00:07, 20.70it/s]Testing:   5%|▍         | 8/165 [00:00<00:07, 22.23it/s]Testing:   7%|▋         | 11/165 [00:00<00:06, 24.63it/s]Testing:   8%|▊         | 14/165 [00:00<00:05, 25.79it/s]Testing:  10%|█         | 17/165 [00:00<00:05, 26.36it/s]Testing:  12%|█▏        | 20/165 [00:00<00:05, 27.01it/s]Testing:  14%|█▍        | 23/165 [00:00<00:05, 25.24it/s]Testing:  16%|█▌        | 26/165 [00:01<00:05, 26.18it/s]Testing:  18%|█▊        | 29/165 [00:01<00:05, 25.10it/s]Testing:  19%|█▉        | 32/165 [00:01<00:05, 24.07it/s]Testing:  21%|██        | 35/165 [00:01<00:05, 22.15it/s]Testing:  23%|██▎       | 38/165 [00:01<00:05, 23.00it/s]Testing:  25%|██▍       | 41/165 [00:01<00:05, 21.42it/s]Testing:  27%|██▋       | 44/165 [00:01<00:05, 21.92it/s]Testing:  28%|██▊       | 47/165 [00:02<00:05, 22.19it/s]Testing:  30%|███       | 50/165 [00:02<00:04, 23.19it/s]Testing:  32%|███▏      | 53/165 [00:02<00:04, 24.34it/s]Testing:  34%|███▍      | 56/165 [00:02<00:04, 24.57it/s]Testing:  36%|███▌      | 59/165 [00:02<00:04, 24.01it/s]Testing:  38%|███▊      | 62/165 [00:02<00:04, 23.15it/s]Testing:  39%|███▉      | 65/165 [00:02<00:04, 23.70it/s]Testing:  41%|████      | 68/165 [00:02<00:04, 23.03it/s]Testing:  43%|████▎     | 71/165 [00:03<00:04, 22.23it/s]Testing:  45%|████▍     | 74/165 [00:03<00:04, 22.16it/s]Testing:  47%|████▋     | 77/165 [00:03<00:03, 22.40it/s]Testing:  48%|████▊     | 80/165 [00:03<00:04, 21.15it/s]Testing:  50%|█████     | 83/165 [00:03<00:03, 21.04it/s]Testing:  52%|█████▏    | 86/165 [00:03<00:03, 20.72it/s]Testing:  54%|█████▍    | 89/165 [00:03<00:03, 21.53it/s]Testing:  56%|█████▌    | 92/165 [00:04<00:03, 21.51it/s]Testing:  58%|█████▊    | 95/165 [00:04<00:03, 21.89it/s]Testing:  59%|█████▉    | 98/165 [00:04<00:03, 21.56it/s]Testing:  61%|██████    | 101/165 [00:04<00:02, 22.40it/s]Testing:  63%|██████▎   | 104/165 [00:04<00:02, 22.25it/s]Testing:  65%|██████▍   | 107/165 [00:04<00:02, 20.85it/s]Testing:  67%|██████▋   | 110/165 [00:04<00:02, 19.71it/s]Testing:  68%|██████▊   | 113/165 [00:05<00:02, 20.73it/s]Testing:  70%|███████   | 116/165 [00:05<00:02, 21.67it/s]Testing:  72%|███████▏  | 119/165 [00:05<00:02, 21.38it/s]Testing:  74%|███████▍  | 122/165 [00:05<00:02, 20.22it/s]Testing:  76%|███████▌  | 125/165 [00:05<00:01, 20.17it/s]Testing:  78%|███████▊  | 128/165 [00:05<00:01, 19.10it/s]Testing:  79%|███████▉  | 130/165 [00:05<00:01, 18.38it/s]Testing:  80%|████████  | 132/165 [00:06<00:01, 18.67it/s]Testing:  82%|████████▏ | 135/165 [00:06<00:01, 20.02it/s]Testing:  84%|████████▎ | 138/165 [00:06<00:01, 19.91it/s]Testing:  85%|████████▌ | 141/165 [00:06<00:01, 17.40it/s]Testing:  87%|████████▋ | 143/165 [00:06<00:01, 16.92it/s]Testing:  88%|████████▊ | 146/165 [00:06<00:01, 17.71it/s]Testing:  90%|█████████ | 149/165 [00:06<00:00, 19.03it/s]Testing:  92%|█████████▏| 152/165 [00:07<00:00, 20.78it/s]Testing:  94%|█████████▍| 155/165 [00:07<00:00, 20.28it/s]Testing:  96%|█████████▌| 158/165 [00:07<00:00, 19.98it/s]Testing:  98%|█████████▊| 161/165 [00:07<00:00, 20.01it/s]Testing:  99%|█████████▉| 164/165 [00:07<00:00, 20.00it/s]Testing: 100%|██████████| 165/165 [00:07<00:00, 21.23it/s]
-results for experiment zero_shot_split1_tr_tmn
-|----Test Finished: Attr Acc: 29.53% | Obj Acc: 55.73% | Seen Acc: 59.49% | Unseen Acc: 32.66%  | HM: 24.39% | AUC: 11.82%.| Seen Acc attr: 73.41% | Unseen Acc attr: 43.62 | HM_attr: 33.73% | AUC_attr: 19.04%
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:   1%|          | 2/165 [00:00<00:09, 16.93it/s]Testing:   2%|▏         | 4/165 [00:00<00:08, 18.07it/s]Testing:   4%|▎         | 6/165 [00:00<00:08, 18.22it/s]Testing:   5%|▌         | 9/165 [00:00<00:07, 20.17it/s]Testing:   7%|▋         | 12/165 [00:00<00:06, 22.31it/s]Testing:   9%|▉         | 15/165 [00:00<00:06, 23.82it/s]Testing:  11%|█         | 18/165 [00:00<00:06, 23.97it/s]Testing:  13%|█▎        | 21/165 [00:00<00:05, 24.75it/s]Testing:  15%|█▍        | 24/165 [00:01<00:06, 23.00it/s]Testing:  16%|█▋        | 27/165 [00:01<00:06, 22.80it/s]Testing:  18%|█▊        | 30/165 [00:01<00:05, 24.00it/s]Testing:  20%|██        | 33/165 [00:01<00:05, 23.65it/s]Testing:  22%|██▏       | 36/165 [00:01<00:05, 23.30it/s]Testing:  24%|██▎       | 39/165 [00:01<00:05, 22.09it/s]Testing:  25%|██▌       | 42/165 [00:01<00:05, 23.51it/s]Testing:  27%|██▋       | 45/165 [00:01<00:05, 23.99it/s]Testing:  29%|██▉       | 48/165 [00:02<00:04, 23.58it/s]Testing:  31%|███       | 51/165 [00:02<00:04, 23.64it/s]Testing:  33%|███▎      | 54/165 [00:02<00:04, 24.72it/s]Testing:  35%|███▍      | 57/165 [00:02<00:04, 24.38it/s]Testing:  36%|███▋      | 60/165 [00:02<00:04, 24.77it/s]Testing:  38%|███▊      | 63/165 [00:02<00:04, 25.27it/s]Testing:  40%|████      | 66/165 [00:02<00:03, 25.03it/s]Testing:  42%|████▏     | 69/165 [00:02<00:03, 24.46it/s]Testing:  44%|████▎     | 72/165 [00:03<00:03, 24.33it/s]Testing:  45%|████▌     | 75/165 [00:03<00:04, 21.17it/s]Testing:  47%|████▋     | 78/165 [00:03<00:04, 20.06it/s]Testing:  49%|████▉     | 81/165 [00:03<00:04, 20.36it/s]Testing:  51%|█████     | 84/165 [00:03<00:03, 21.11it/s]Testing:  53%|█████▎    | 87/165 [00:03<00:03, 22.16it/s]Testing:  55%|█████▍    | 90/165 [00:03<00:03, 22.14it/s]Testing:  56%|█████▋    | 93/165 [00:04<00:03, 23.33it/s]Testing:  58%|█████▊    | 96/165 [00:04<00:03, 22.25it/s]Testing:  60%|██████    | 99/165 [00:04<00:02, 23.92it/s]Testing:  62%|██████▏   | 102/165 [00:04<00:02, 21.89it/s]Testing:  64%|██████▎   | 105/165 [00:04<00:02, 21.24it/s]Testing:  65%|██████▌   | 108/165 [00:04<00:02, 20.85it/s]Testing:  67%|██████▋   | 111/165 [00:04<00:02, 20.31it/s]Testing:  69%|██████▉   | 114/165 [00:05<00:02, 21.45it/s]Testing:  71%|███████   | 117/165 [00:05<00:02, 20.72it/s]Testing:  73%|███████▎  | 120/165 [00:05<00:02, 19.97it/s]Testing:  75%|███████▍  | 123/165 [00:05<00:02, 19.93it/s]Testing:  76%|███████▋  | 126/165 [00:05<00:01, 21.14it/s]Testing:  78%|███████▊  | 129/165 [00:05<00:01, 20.29it/s]Testing:  80%|████████  | 132/165 [00:05<00:01, 19.37it/s]Testing:  82%|████████▏ | 135/165 [00:06<00:01, 19.86it/s]Testing:  84%|████████▎ | 138/165 [00:06<00:01, 20.94it/s]Testing:  85%|████████▌ | 141/165 [00:06<00:01, 21.66it/s]Testing:  87%|████████▋ | 144/165 [00:06<00:00, 22.99it/s]Testing:  89%|████████▉ | 147/165 [00:06<00:00, 23.02it/s]Testing:  91%|█████████ | 150/165 [00:06<00:00, 23.99it/s]Testing:  93%|█████████▎| 153/165 [00:06<00:00, 23.33it/s]Testing:  95%|█████████▍| 156/165 [00:06<00:00, 24.34it/s]Testing:  96%|█████████▋| 159/165 [00:07<00:00, 24.06it/s]Testing:  98%|█████████▊| 162/165 [00:07<00:00, 24.79it/s]Testing: 100%|██████████| 165/165 [00:07<00:00, 24.64it/s]Testing: 100%|██████████| 165/165 [00:07<00:00, 22.14it/s]
-results for experiment zero_shot_split1_tr_cw_tmn
-|----Test Finished: Attr Acc: 32.34% | Obj Acc: 57.40% | Seen Acc: 59.21% | Unseen Acc: 41.83%  | HM: 27.80% | AUC: 14.40%.| Seen Acc attr: 71.52% | Unseen Acc attr: 49.84 | HM_attr: 34.94% | AUC_attr: 20.76%
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:   2%|▏         | 3/165 [00:00<00:06, 24.87it/s]Testing:   4%|▍         | 7/165 [00:00<00:05, 27.84it/s]Testing:   6%|▌         | 10/165 [00:00<00:05, 28.05it/s]Testing:   8%|▊         | 14/165 [00:00<00:05, 29.62it/s]Testing:  10%|█         | 17/165 [00:00<00:05, 28.82it/s]Testing:  12%|█▏        | 20/165 [00:00<00:05, 28.16it/s]Testing:  14%|█▍        | 23/165 [00:00<00:04, 28.50it/s]Testing:  16%|█▌        | 26/165 [00:00<00:04, 28.67it/s]Testing:  18%|█▊        | 29/165 [00:01<00:04, 28.84it/s]Testing:  19%|█▉        | 32/165 [00:01<00:05, 26.16it/s]Testing:  21%|██        | 35/165 [00:01<00:04, 26.63it/s]Testing:  23%|██▎       | 38/165 [00:01<00:05, 24.05it/s]Testing:  25%|██▍       | 41/165 [00:01<00:05, 24.58it/s]Testing:  27%|██▋       | 44/165 [00:01<00:05, 21.27it/s]Testing:  28%|██▊       | 47/165 [00:01<00:05, 22.01it/s]Testing:  30%|███       | 50/165 [00:01<00:04, 23.47it/s]Testing:  32%|███▏      | 53/165 [00:02<00:04, 24.90it/s]Testing:  34%|███▍      | 56/165 [00:02<00:04, 25.32it/s]Testing:  36%|███▌      | 59/165 [00:02<00:04, 26.23it/s]Testing:  38%|███▊      | 62/165 [00:02<00:03, 27.06it/s]Testing:  39%|███▉      | 65/165 [00:02<00:03, 26.51it/s]Testing:  41%|████      | 68/165 [00:02<00:03, 27.32it/s]Testing:  43%|████▎     | 71/165 [00:02<00:03, 27.58it/s]Testing:  45%|████▍     | 74/165 [00:02<00:03, 27.54it/s]Testing:  47%|████▋     | 77/165 [00:02<00:03, 24.71it/s]Testing:  48%|████▊     | 80/165 [00:03<00:03, 25.16it/s]Testing:  50%|█████     | 83/165 [00:03<00:03, 25.93it/s]Testing:  52%|█████▏    | 86/165 [00:03<00:03, 24.82it/s]Testing:  54%|█████▍    | 89/165 [00:03<00:03, 24.79it/s]Testing:  56%|█████▌    | 92/165 [00:03<00:02, 25.23it/s]Testing:  58%|█████▊    | 95/165 [00:03<00:02, 26.39it/s]Testing:  59%|█████▉    | 98/165 [00:03<00:02, 26.60it/s]Testing:  61%|██████    | 101/165 [00:03<00:02, 25.89it/s]Testing:  63%|██████▎   | 104/165 [00:03<00:02, 26.14it/s]Testing:  65%|██████▍   | 107/165 [00:04<00:02, 26.27it/s]Testing:  67%|██████▋   | 110/165 [00:04<00:02, 23.21it/s]Testing:  68%|██████▊   | 113/165 [00:04<00:02, 21.50it/s]Testing:  70%|███████   | 116/165 [00:04<00:02, 20.27it/s]Testing:  72%|███████▏  | 119/165 [00:04<00:02, 20.08it/s]Testing:  74%|███████▍  | 122/165 [00:04<00:01, 21.70it/s]Testing:  76%|███████▌  | 125/165 [00:04<00:01, 23.07it/s]Testing:  78%|███████▊  | 128/165 [00:05<00:01, 24.17it/s]Testing:  79%|███████▉  | 131/165 [00:05<00:01, 25.45it/s]Testing:  81%|████████  | 134/165 [00:05<00:01, 25.96it/s]Testing:  83%|████████▎ | 137/165 [00:05<00:01, 25.15it/s]Testing:  85%|████████▍ | 140/165 [00:05<00:01, 24.24it/s]Testing:  87%|████████▋ | 143/165 [00:05<00:00, 23.52it/s]Testing:  88%|████████▊ | 146/165 [00:05<00:00, 24.54it/s]Testing:  90%|█████████ | 149/165 [00:05<00:00, 25.18it/s]Testing:  92%|█████████▏| 152/165 [00:06<00:00, 24.84it/s]Testing:  94%|█████████▍| 155/165 [00:06<00:00, 25.71it/s]Testing:  96%|█████████▋| 159/165 [00:06<00:00, 27.30it/s]Testing:  98%|█████████▊| 162/165 [00:06<00:00, 27.26it/s]Testing: 100%|██████████| 165/165 [00:06<00:00, 23.92it/s]Testing: 100%|██████████| 165/165 [00:06<00:00, 24.61it/s]
-results for experiment zero_shot_split1_tr_object_tmn
-|----Test Finished: Attr Acc: 38.83% | Obj Acc: 100.00% | Seen Acc: 83.09% | Unseen Acc: 66.76%  | HM: 38.52% | AUC: 27.50%.| Seen Acc attr: 83.09% | Unseen Acc attr: 66.47 | HM_attr: 38.52% | AUC_attr: 27.50%
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:   2%|▏         | 3/165 [00:00<00:06, 26.86it/s]Testing:   4%|▎         | 6/165 [00:00<00:05, 27.86it/s]Testing:   5%|▌         | 9/165 [00:00<00:05, 28.16it/s]Testing:   7%|▋         | 12/165 [00:00<00:05, 27.17it/s]Testing:   9%|▉         | 15/165 [00:00<00:05, 25.88it/s]Testing:  12%|█▏        | 19/165 [00:00<00:05, 27.88it/s]Testing:  14%|█▍        | 23/165 [00:00<00:04, 28.95it/s]Testing:  16%|█▋        | 27/165 [00:00<00:04, 29.76it/s]Testing:  19%|█▉        | 31/165 [00:01<00:04, 29.62it/s]Testing:  21%|██        | 34/165 [00:01<00:04, 28.39it/s]Testing:  22%|██▏       | 37/165 [00:01<00:04, 27.43it/s]Testing:  24%|██▍       | 40/165 [00:01<00:04, 27.75it/s]Testing:  26%|██▌       | 43/165 [00:01<00:04, 26.92it/s]Testing:  28%|██▊       | 46/165 [00:01<00:04, 26.91it/s]Testing:  30%|███       | 50/165 [00:01<00:04, 28.04it/s]Testing:  33%|███▎      | 54/165 [00:01<00:03, 28.52it/s]Testing:  35%|███▌      | 58/165 [00:02<00:03, 29.10it/s]Testing:  37%|███▋      | 61/165 [00:02<00:03, 27.08it/s]Testing:  39%|███▉      | 64/165 [00:02<00:04, 24.53it/s]Testing:  41%|████      | 67/165 [00:02<00:04, 23.16it/s]Testing:  42%|████▏     | 70/165 [00:02<00:04, 21.54it/s]Testing:  44%|████▍     | 73/165 [00:02<00:04, 21.74it/s]Testing:  46%|████▌     | 76/165 [00:02<00:04, 21.53it/s]Testing:  48%|████▊     | 79/165 [00:03<00:04, 20.79it/s]Testing:  50%|████▉     | 82/165 [00:03<00:04, 20.51it/s]Testing:  52%|█████▏    | 85/165 [00:03<00:03, 20.00it/s]Testing:  53%|█████▎    | 88/165 [00:03<00:04, 19.05it/s]Testing:  55%|█████▍    | 90/165 [00:03<00:04, 18.27it/s]Testing:  56%|█████▌    | 92/165 [00:03<00:03, 18.42it/s]Testing:  58%|█████▊    | 95/165 [00:03<00:03, 19.27it/s]Testing:  59%|█████▉    | 97/165 [00:04<00:03, 19.11it/s]Testing:  60%|██████    | 99/165 [00:04<00:03, 18.77it/s]Testing:  61%|██████    | 101/165 [00:04<00:03, 18.71it/s]Testing:  62%|██████▏   | 103/165 [00:04<00:03, 18.94it/s]Testing:  64%|██████▎   | 105/165 [00:04<00:03, 18.84it/s]Testing:  65%|██████▍   | 107/165 [00:04<00:03, 18.54it/s]Testing:  66%|██████▌   | 109/165 [00:04<00:02, 18.78it/s]Testing:  67%|██████▋   | 111/165 [00:04<00:02, 18.27it/s]Testing:  68%|██████▊   | 113/165 [00:04<00:02, 18.33it/s]Testing:  70%|██████▉   | 115/165 [00:05<00:02, 17.90it/s]Testing:  71%|███████   | 117/165 [00:05<00:02, 18.40it/s]Testing:  72%|███████▏  | 119/165 [00:05<00:02, 18.28it/s]Testing:  73%|███████▎  | 121/165 [00:05<00:02, 18.64it/s]Testing:  75%|███████▍  | 123/165 [00:05<00:02, 18.47it/s]Testing:  76%|███████▌  | 125/165 [00:05<00:02, 18.74it/s]Testing:  77%|███████▋  | 127/165 [00:05<00:02, 18.52it/s]Testing:  78%|███████▊  | 129/165 [00:05<00:01, 18.71it/s]Testing:  79%|███████▉  | 131/165 [00:05<00:01, 18.10it/s]Testing:  81%|████████  | 133/165 [00:06<00:01, 17.03it/s]Testing:  82%|████████▏ | 135/165 [00:06<00:01, 16.66it/s]Testing:  83%|████████▎ | 137/165 [00:06<00:01, 16.68it/s]Testing:  84%|████████▍ | 139/165 [00:06<00:01, 17.21it/s]Testing:  86%|████████▌ | 142/165 [00:06<00:01, 18.09it/s]Testing:  88%|████████▊ | 145/165 [00:06<00:01, 19.32it/s]Testing:  89%|████████▉ | 147/165 [00:06<00:00, 18.70it/s]Testing:  90%|█████████ | 149/165 [00:06<00:00, 18.12it/s]Testing:  92%|█████████▏| 151/165 [00:07<00:00, 18.38it/s]Testing:  93%|█████████▎| 154/165 [00:07<00:00, 19.76it/s]Testing:  95%|█████████▌| 157/165 [00:07<00:00, 21.09it/s]Testing:  97%|█████████▋| 160/165 [00:07<00:00, 21.08it/s]Testing:  99%|█████████▉| 163/165 [00:07<00:00, 22.92it/s]Testing: 100%|██████████| 165/165 [00:07<00:00, 21.35it/s]
-results for experiment zero_shot_split1_tr_object_ow_tmn
-|----Test Finished: Attr Acc: 40.04% | Obj Acc: 100.00% | Seen Acc: 84.27% | Unseen Acc: 68.85%  | HM: 44.42% | AUC: 33.71%.| Seen Acc attr: 84.27% | Unseen Acc attr: 68.49 | HM_attr: 44.42% | AUC_attr: 33.71%
-Using only train pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  24%|██▎       | 39/165 [00:00<00:00, 383.46it/s]Testing:  49%|████▉     | 81/165 [00:00<00:00, 402.32it/s]Testing:  75%|███████▍  | 123/165 [00:00<00:00, 404.57it/s]Testing:  99%|█████████▉| 164/165 [00:00<00:00, 402.27it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 326.44it/s]
-results for experiment zero_shot_split1_tr_le+
-|----Test Finished: Attr Acc: 25.17% | Obj Acc: 38.20% | Seen Acc: 55.19% | Unseen Acc: 12.90%  | HM: 12.26% | AUC: 3.51%.| Seen Acc attr: 71.56% | Unseen Acc attr: 14.32 | HM_attr: 20.84% | AUC_attr: 6.48%
-Using only train pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  21%|██        | 35/165 [00:00<00:00, 349.71it/s]Testing:  45%|████▍     | 74/165 [00:00<00:00, 373.08it/s]Testing:  69%|██████▉   | 114/165 [00:00<00:00, 380.45it/s]Testing:  93%|█████████▎| 153/165 [00:00<00:00, 372.07it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 311.43it/s]
-results for experiment zero_shot_split1_tr_cw_le+
-|----Test Finished: Attr Acc: 31.94% | Obj Acc: 37.69% | Seen Acc: 51.05% | Unseen Acc: 26.56%  | HM: 24.59% | AUC: 9.67%.| Seen Acc attr: 68.64% | Unseen Acc attr: 31.71 | HM_attr: 34.53% | AUC_attr: 16.88%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  30%|███       | 50/165 [00:00<00:00, 498.77it/s]Testing:  62%|██████▏   | 102/165 [00:00<00:00, 507.71it/s]Testing:  93%|█████████▎| 154/165 [00:00<00:00, 511.74it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 401.99it/s]
-results for experiment zero_shot_split1_tr_object_le+
-|----Test Finished: Attr Acc: 18.91% | Obj Acc: 100.00% | Seen Acc: 30.46% | Unseen Acc: 32.52%  | HM: 14.03% | AUC: 4.30%.| Seen Acc attr: 30.46% | Unseen Acc attr: 31.90 | HM_attr: 14.03% | AUC_attr: 4.29%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  27%|██▋       | 45/165 [00:00<00:00, 445.96it/s]Testing:  59%|█████▉    | 98/165 [00:00<00:00, 491.03it/s]Testing:  90%|████████▉ | 148/165 [00:00<00:00, 486.23it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 393.31it/s]
-results for experiment zero_shot_split1_tr_object_ow_le+
-|----Test Finished: Attr Acc: 24.77% | Obj Acc: 100.00% | Seen Acc: 45.42% | Unseen Acc: 42.60%  | HM: 0.00% | AUC: 9.67%.| Seen Acc attr: 45.42% | Unseen Acc attr: 0.00 | HM_attr: 0.00% | AUC_attr: 0.00%
-Using only train pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Initializing classifiers
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  16%|█▋        | 27/165 [00:00<00:00, 264.02it/s]Testing:  33%|███▎      | 54/165 [00:00<00:00, 252.53it/s]Testing:  48%|████▊     | 80/165 [00:00<00:00, 222.73it/s]Testing:  62%|██████▏   | 103/165 [00:00<00:00, 214.87it/s]Testing:  77%|███████▋  | 127/165 [00:00<00:00, 222.59it/s]Testing:  91%|█████████ | 150/165 [00:00<00:00, 223.68it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 190.90it/s]
-results for experiment zero_shot_split1_tr_aopp
-|----Test Finished: Attr Acc: 23.46% | Obj Acc: 56.09% | Seen Acc: 57.12% | Unseen Acc: 27.29%  | HM: 22.80% | AUC: 9.27%.| Seen Acc attr: 69.86% | Unseen Acc attr: 33.28 | HM_attr: 31.57% | AUC_attr: 13.26%
-Using only train pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Initializing classifiers
-Glove Embeddings loaded, total embeddings: torch.Size([14, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  25%|██▍       | 41/165 [00:00<00:00, 401.98it/s]Testing:  50%|████▉     | 82/165 [00:00<00:00, 401.23it/s]Testing:  75%|███████▍  | 123/165 [00:00<00:00, 377.45it/s]Testing:  98%|█████████▊| 162/165 [00:00<00:00, 381.35it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 303.41it/s]
-results for experiment zero_shot_split1_tr_cw_aopp
-|----Test Finished: Attr Acc: 30.71% | Obj Acc: 48.29% | Seen Acc: 57.08% | Unseen Acc: 41.07%  | HM: 25.82% | AUC: 12.87%.| Seen Acc attr: 73.49% | Unseen Acc attr: 53.45 | HM_attr: 32.23% | AUC_attr: 19.54%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Initializing classifiers
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  27%|██▋       | 45/165 [00:00<00:00, 441.88it/s]Testing:  57%|█████▋    | 94/165 [00:00<00:00, 467.98it/s]Testing:  87%|████████▋ | 144/165 [00:00<00:00, 482.50it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 338.97it/s]
-results for experiment zero_shot_split1_tr_obj_aopp
-|----Test Finished: Attr Acc: 10.89% | Obj Acc: 100.00% | Seen Acc: 84.22% | Unseen Acc: 18.72%  | HM: 14.04% | AUC: 6.71%.| Seen Acc attr: 84.22% | Unseen Acc attr: 18.20 | HM_attr: 14.04% | AUC_attr: 6.71%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Initializing classifiers
-Glove Embeddings loaded, total embeddings: torch.Size([1, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  30%|██▉       | 49/165 [00:00<00:00, 483.24it/s]Testing:  59%|█████▉    | 98/165 [00:00<00:00, 450.88it/s]Testing:  89%|████████▉ | 147/165 [00:00<00:00, 466.25it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 341.77it/s]
-results for experiment zero_shot_split1_tr_obj_ow_aopp
-|----Test Finished: Attr Acc: 15.36% | Obj Acc: 100.00% | Seen Acc: 43.20% | Unseen Acc: 26.42%  | HM: 20.65% | AUC: 7.37%.| Seen Acc attr: 43.20% | Unseen Acc attr: 26.09 | HM_attr: 20.65% | AUC_attr: 7.36%
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  13%|█▎        | 21/165 [00:00<00:00, 199.51it/s]Testing:  25%|██▍       | 41/165 [00:00<00:00, 195.16it/s]Testing:  37%|███▋      | 61/165 [00:00<00:00, 180.84it/s]Testing:  49%|████▉     | 81/165 [00:00<00:00, 183.95it/s]Testing:  61%|██████    | 100/165 [00:00<00:00, 179.93it/s]Testing:  72%|███████▏  | 119/165 [00:00<00:00, 167.10it/s]Testing:  85%|████████▍ | 140/165 [00:00<00:00, 178.99it/s]Testing:  96%|█████████▋| 159/165 [00:00<00:00, 174.27it/s]Testing: 100%|██████████| 165/165 [00:01<00:00, 160.37it/s]
-results for experiment zero_shot_split1_tr_symnet
-|----Test Finished: Attr Acc: 23.73% | Obj Acc: 47.88% | Seen Acc: 63.71% | Unseen Acc: 12.42%  | HM: 14.81% | AUC: 5.12%.| Seen Acc attr: 77.71% | Unseen Acc attr: 14.03 | HM_attr: 21.13% | AUC_attr: 7.52%
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  18%|█▊        | 29/165 [00:00<00:00, 282.51it/s]Testing:  36%|███▌      | 59/165 [00:00<00:00, 290.00it/s]Testing:  54%|█████▍    | 89/165 [00:00<00:00, 275.66it/s]Testing:  71%|███████   | 117/165 [00:00<00:00, 267.37it/s]Testing:  87%|████████▋ | 144/165 [00:00<00:00, 267.33it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 239.34it/s]
-results for experiment zero_shot_split1_tr_cw_symnet
-|----Test Finished: Attr Acc: 33.55% | Obj Acc: 37.22% | Seen Acc: 63.08% | Unseen Acc: 48.19%  | HM: 29.90% | AUC: 17.72%.| Seen Acc attr: 77.67% | Unseen Acc attr: 59.44 | HM_attr: 44.24% | AUC_attr: 31.01%
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  20%|██        | 33/165 [00:00<00:00, 327.49it/s]Testing:  42%|████▏     | 69/165 [00:00<00:00, 342.55it/s]Testing:  63%|██████▎   | 104/165 [00:00<00:00, 331.76it/s]Testing:  85%|████████▌ | 141/165 [00:00<00:00, 343.86it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 267.27it/s]
-results for experiment zero_shot_split1_tr_obj_symnet
-|----Test Finished: Attr Acc: 11.84% | Obj Acc: 100.00% | Seen Acc: 83.77% | Unseen Acc: 35.62%  | HM: 34.75% | AUC: 17.66%.| Seen Acc attr: 83.77% | Unseen Acc attr: 35.62 | HM_attr: 34.75% | AUC_attr: 20.15%
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Glove Embeddings loaded, total embeddings: torch.Size([9, 300])
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/165 [00:00<?, ?it/s]Testing:  21%|██        | 34/165 [00:00<00:00, 334.26it/s]Testing:  42%|████▏     | 70/165 [00:00<00:00, 345.56it/s]Testing:  64%|██████▎   | 105/165 [00:00<00:00, 338.92it/s]Testing:  84%|████████▍ | 139/165 [00:00<00:00, 327.79it/s]Testing: 100%|██████████| 165/165 [00:00<00:00, 281.81it/s]
-results for experiment zero_shot_split1_tr_obj_ow_symnet
-|----Test Finished: Attr Acc: 13.14% | Obj Acc: 100.00% | Seen Acc: 83.82% | Unseen Acc: 37.31%  | HM: 33.51% | AUC: 17.77%.| Seen Acc attr: 83.82% | Unseen Acc attr: 37.31 | HM_attr: 33.51% | AUC_attr: 19.84%
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Fasttext Embeddings loaded, total embeddings: torch.Size([9, 300])
-Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
-Combined embeddings are  torch.Size([9, 600])
-Fasttext Embeddings loaded, total embeddings: torch.Size([14, 300])
-Word2Vec Embeddings loaded, total embeddings: torch.Size([14, 300])
-Combined embeddings are  torch.Size([14, 600])
-332551213
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
-Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
-Testing:   0%|          | 0/83 [00:00<?, ?it/s]Testing:   1%|          | 1/83 [00:00<00:21,  3.82it/s]Testing:  52%|█████▏    | 43/83 [00:00<00:00, 149.75it/s]Testing:  95%|█████████▌| 79/83 [00:00<00:00, 218.24it/s]Testing: 100%|██████████| 83/83 [00:00<00:00, 146.86it/s]
-results for experiment zero_shot_split1_tr
-|----Test Finished: Attr Acc: 30.80% | Obj Acc: 47.14% | Seen Acc: 63.94% | Unseen Acc: 28.61%  | HM: 32.88% | AUC: 16.17%.| Seen Acc attr: 78.19% | Unseen Acc attr: 30.87 | HM_attr: 39.92% | AUC_attr: 20.80%
-Using only train pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 14, Validation pairs: 18, Test Pairs: 35
-Train images: 4421, Validation images: 4152, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
-Word2Vec Embeddings loaded, total embeddings: torch.Size([14, 300])
-332551213
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/83 [00:00<?, ?it/s]Testing:  52%|█████▏    | 43/83 [00:00<00:00, 429.73it/s]Testing: 100%|██████████| 83/83 [00:00<00:00, 284.04it/s]
-results for experiment zero_shot_split1_tr_cw
-|----Test Finished: Attr Acc: 30.08% | Obj Acc: 52.66% | Seen Acc: 62.13% | Unseen Acc: 40.92%  | HM: 32.68% | AUC: 18.32%.| Seen Acc attr: 76.29% | Unseen Acc attr: 45.31 | HM_attr: 38.68% | AUC_attr: 23.83%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
-Word2Vec Embeddings loaded, total embeddings: torch.Size([1, 300])
-332551213
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/83 [00:00<?, ?it/s]Testing:  54%|█████▍    | 45/83 [00:00<00:00, 447.53it/s]Testing: 100%|██████████| 83/83 [00:00<00:00, 249.49it/s]
-results for experiment zero_shot_split1_tr_object
-|----Test Finished: Attr Acc: 25.17% | Obj Acc: 100.00% | Seen Acc: 79.65% | Unseen Acc: 43.28%  | HM: 25.91% | AUC: 14.98%.| Seen Acc attr: 79.65% | Unseen Acc attr: 42.99 | HM_attr: 25.91% | AUC_attr: 14.98%
-Using only train pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Using all pairs
-Dataset loaded
-Train pairs: 4, Validation pairs: 5, Test Pairs: 9
-Train images: 4822, Validation images: 3751, Test images: 5272
-Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_featurers.t7
-torch._utils
-collections
-33806 activations loaded
-Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
-Word2Vec Embeddings loaded, total embeddings: torch.Size([1, 300])
-332551213
-1321
-collections
-torch._utils
-numpy.core.multiarray
-numpy
-_codecs
-Evaluating with test pairs
-Testing:   0%|          | 0/83 [00:00<?, ?it/s]Testing:  59%|█████▉    | 49/83 [00:00<00:00, 488.40it/s]Testing: 100%|██████████| 83/83 [00:00<00:00, 261.01it/s]
-results for experiment zero_shot_split1_tr_object_ow
-|----Test Finished: Attr Acc: 25.68% | Obj Acc: 100.00% | Seen Acc: 86.49% | Unseen Acc: 44.16%  | HM: 26.92% | AUC: 15.86%.| Seen Acc attr: 86.49% | Unseen Acc attr: 43.67 | HM_attr: 26.92% | AUC_attr: 15.86%

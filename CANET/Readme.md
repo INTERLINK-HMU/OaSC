@@ -66,11 +66,14 @@ After the  script completes, the repo must have the following folder structure.
 </pre> -->
 
 
-# Testing
+## Testing
+
+-To reproduce the reported results  run in a terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
+
 
 **OSDD  Dataset**
-
-- To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
 python test.py --dataset osdd_obj --auc
@@ -79,12 +82,9 @@ python test.py --dataset osdd_cw  --auc
 
 python test.py --dataset osdd_ow  --auc
 
-
 ```
 
 **CGQA-States  Dataset**
-
-- To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
 python test.py --dataset cgqa_obj --auc
@@ -97,8 +97,6 @@ python test.py --dataset cgqa_ow  --auc
 
 **MIT-States  Dataset**
 
-- To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
 python test.py --dataset mit_obj --auc
 
@@ -107,5 +105,48 @@ python test.py --dataset mit_cw  --auc
 python test.py --dataset mitd_ow  --auc
 
 ```
+
+
+## Training from scratch
+
+
+- To train the model from scratch, run in the terminal the following.
+The first command corresponds to the GO setting, the second to the OW setting
+and the third to the CW setting.
+
+
+**OSDD  Dataset**
+
+```
+python train.py --dataset osdd_obj 
+
+python train.py --dataset osdd_cw  
+
+python train.py --dataset osdd_ow  
+
+```
+
+**CGQA-States  Dataset**
+
+```
+python train.py --dataset cgqa_obj 
+
+python train.py --dataset cgqa_states  
+
+python train.py --dataset cgqa_ow  
+
+```
+
+**MIT-States  Dataset**
+
+```
+python train.py --dataset mit_obj 
+
+python train.py --dataset mit_cw  
+
+python train.py --dataset mitd_ow  
+```
+
+
 
 

@@ -1,0 +1,105 @@
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/osdd_obj/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/osdd/compcos_dif_val/resnet18_features.t7
+  Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_features.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/osdd_object_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/3 [00:00<?, ?it/s]Testing: 100%|██████████| 3/3 [00:00<00:00,  9.08it/s]
+tensor(0.8563) tensor(0.) tensor(0.) 0.119160354
+zero_shot_split1_tr_object
+|----Test Finished: Attr Acc: 21.21% | Obj Acc: 100.00% | Seen Acc: 85.63% | Unseen Acc: 36.46%  | HM: 19.94% | AUC: 11.92%.| Seen Acc attr: 85.63% | Unseen Acc attr: 35.65 | HM_attr: 19.94% | AUC_attr: 11.92%
+=== Program terminated ===
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/osdd_ow/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/osdd/compcos_dif_val/resnet18_features.t7
+  Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_features.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/osdd_generic_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/3 [00:00<?, ?it/s]Testing: 100%|██████████| 3/3 [00:00<00:00,  8.92it/s]
+tensor(0.7909) tensor(0.0307) tensor(0.0591) 0.26526654
+zero_shot_split1_tr_ow
+|----Test Finished: Attr Acc: 33.86% | Obj Acc: 48.81% | Seen Acc: 66.19% | Unseen Acc: 41.65%  | HM: 37.30% | AUC: 21.71%.| Seen Acc attr: 79.21% | Unseen Acc attr: 41.47 | HM_attr: 43.75% | AUC_attr: 26.53%
+=== Program terminated ===
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/osdd/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/osdd/compcos_dif_val/resnet18_features.t7
+  Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_features.t7
+torch._utils
+collections
+> Initialize model <CANet>
+  Load attribute word embeddings--
+torch._utils
+collections
+word embedding/osdd_generic_obj.save
+  Load object word embeddings--
+torch._utils
+collections
+> Load saved trained model
+numpy.core.multiarray
+numpy
+_codecs
+collections
+torch._utils
+> Initialize evaluator
+  Evaluating with test pairs
+/home/philippos/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 16 worker processes in total. Our suggested max number of worker in current system is 12, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Testing:   0%|          | 0/3 [00:00<?, ?it/s]Testing: 100%|██████████| 3/3 [00:00<00:00, 12.62it/s]
+tensor(0.8039) tensor(0.0314) tensor(0.0605) 0.2786653
+zero_shot_split1_tr_cw
+|----Test Finished: Attr Acc: 35.09% | Obj Acc: 47.04% | Seen Acc: 66.39% | Unseen Acc: 40.99%  | HM: 37.97% | AUC: 21.77%.| Seen Acc attr: 80.32% | Unseen Acc attr: 43.62 | HM_attr: 45.08% | AUC_attr: 27.87%
+=== Program terminated ===
