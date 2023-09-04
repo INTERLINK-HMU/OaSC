@@ -9,6 +9,7 @@ Create a conda environment `compcos` using
 ```
 conda env create -f environment.yml
 conda activate compcos
+
 ```
 
 ## Preperation:
@@ -17,6 +18,15 @@ conda activate compcos
 ```
 bash download_data.sh
 bash download_embeddings.sh
+
+```
+
+## Download saved checkpoints:
+- Download the saved checkpoints running the following script in the terminal:
+
+```
+bash download_logs.sh
+
 ```
 
 

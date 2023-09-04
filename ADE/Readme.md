@@ -9,6 +9,7 @@ Create a conda environment `ade` using
 ```
 conda env create -f environment.yml
 conda activate ade
+
 ```
 
 ## Preperation:
@@ -17,6 +18,7 @@ conda activate ade
 ```
 bash download_data.sh
 bash download_embeddings.sh
+
 ```
 
 
@@ -47,23 +49,17 @@ python test.py --logpath "./logs/zero_shot_split1_tr_ow" --auc
 
 python test.py --logpath "./logs/zero_shot_split1_tr_cw" --auc 
 
-
-
-
 ```
 
 **CGQA-States  Dataset**
 
 
 ```
-
 python test.py --logpath "./logs/cgqa_split2_tr_object" --auc 
 
 python test.py --logpath "./logs/cgqa_split2_tr_ow"  --auc 
 
 python test.py --logpath "./logs/cgqa_split2_tr_cw" --auc 
-
-
 
 ```
 
@@ -71,7 +67,6 @@ python test.py --logpath "./logs/cgqa_split2_tr_cw" --auc
 
 
 ```
-
  python test.py --logpath "./logs/mit_split2_tr_object" --auc 
 
  python test.py --logpath "./logs/mit_split2_tr_ow" --auc 
@@ -102,7 +97,6 @@ python train.py --config "./configs/osdd_states_ow.yml"
 
 python train.py --config "./configs/osdd_states_cw.yml"
 
-
 ```
 
 **CGQA-States  Dataset**
@@ -114,7 +108,6 @@ python train.py --config "./configs/cgqa_states_obj.yml"
 python train.py --config "./configs/cgqa_states_ow.yml"
 
 python train.py --config "./configs/cgqa_states_cw.yml"
-
 
 ```
 
