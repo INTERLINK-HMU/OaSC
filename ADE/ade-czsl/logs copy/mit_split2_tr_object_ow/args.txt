@@ -1,2 +1,0 @@
---config
-configs/mit_states_obj_ow.yml

@@ -1,2 +1,0 @@
---config
-configs/osdd_states_obj_ow.yml

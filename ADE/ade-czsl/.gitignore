@@ -11,5 +11,5 @@ ckpt.tar.gz
 img2txt_retrieval
 datasets/
 *.t7
-,gitignore
+.gitignore
 env/

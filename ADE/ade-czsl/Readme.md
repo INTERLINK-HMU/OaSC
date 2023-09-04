@@ -15,7 +15,6 @@ conda activate ade
 - Download the datasets and  the embeddings for the model by openning a terminal and running the following script:
 
 ```
-cd src
 bash download_data.sh
 bash download_embeddings.sh
 ```

@@ -1,2 +1,0 @@
---config
-configs/cgqa_states_obj.yml
