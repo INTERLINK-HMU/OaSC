@@ -93,7 +93,7 @@ python train.py --config configs/osdd_cw.yml
 **CGQA-States  Dataset**
 
 ```
-ython train.py --config configs/cgqa_obj.yml
+python train.py --config configs/cgqa_obj.yml
 
 python train.py --config configs/cgqa_ow.yml
 
@@ -103,7 +103,7 @@ python train.py --config configs/cgqa_cw.yml
 **MIT-States  Dataset**
 
 ```
-ython train.py --config configs/mit_obj.yml
+python train.py --config configs/mit_obj.yml
 
 python train.py --config configs/mit_ow.yml
 

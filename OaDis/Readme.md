@@ -90,7 +90,6 @@ python train.py --cfg configs/osdd_ow.yml
 
 python train.py --cfg configs/osdd_cw.yml
 
-
 ```
 
 **CGQA-States  Dataset**
@@ -101,6 +100,7 @@ python train.py --cfg configs/cgqa_obj_ow.yml
 python train.py --cfg configs/cgqa_ow.yml
 
 python train.py --cfg configs/cgqa_cw.yml
+
 ```
 
 **MIT-States  Dataset**
@@ -111,6 +111,7 @@ python train.py --cfg configs/mit_obj_ow.yml
 python train.py --cfg configs/mit_ow.yml
 
 python train.py --cfg configs/mit_cw.yml
+
 ```
 
 
