@@ -1,0 +1,129 @@
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([14, 300])
+collections
+torch._utils
+torch._utils
+collections
+torch._utils
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+Testing:   0%|          | 0/17 [00:00<?, ?it/s]Testing:   6%|▌         | 1/17 [00:02<00:42,  2.65s/it]Testing:  12%|█▏        | 2/17 [00:02<00:17,  1.18s/it]Testing:  18%|█▊        | 3/17 [00:02<00:09,  1.41it/s]Testing:  24%|██▎       | 4/17 [00:03<00:06,  1.90it/s]Testing:  29%|██▉       | 5/17 [00:05<00:13,  1.13s/it]Testing:  35%|███▌      | 6/17 [00:05<00:08,  1.25it/s]Testing:  41%|████      | 7/17 [00:05<00:05,  1.70it/s]Testing:  47%|████▋     | 8/17 [00:05<00:04,  2.23it/s]Testing:  53%|█████▎    | 9/17 [00:06<00:04,  1.90it/s]Testing:  59%|█████▉    | 10/17 [00:06<00:02,  2.44it/s]Testing:  65%|██████▍   | 11/17 [00:06<00:01,  3.01it/s]Testing:  71%|███████   | 12/17 [00:07<00:01,  3.62it/s]Testing:  76%|███████▋  | 13/17 [00:11<00:05,  1.44s/it]Testing:  82%|████████▏ | 14/17 [00:11<00:03,  1.05s/it]Testing:  88%|████████▊ | 15/17 [00:11<00:01,  1.28it/s]Testing:  94%|█████████▍| 16/17 [00:11<00:00,  1.69it/s]Testing: 100%|██████████| 17/17 [00:11<00:00,  2.24it/s]Testing: 100%|██████████| 17/17 [00:11<00:00,  1.44it/s]osdd_ow
+Top 1
+closed_attr_match  0.3085| closed_obj_match  0.5443| AUC_attr  0.1319| seen_open_attr_all_bias_max  0.7357| unseen_open_attr_all_bias_max  0.5399| hm_open_attr_all_bias_max  0.5878| best_unseen  0.3791| best_seen  0.4859| AUC  0.1653| best_hm  0.3625| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:02<00:43,  2.18s/it]Testing:  10%|▉         | 2/21 [00:02<00:18,  1.01it/s]Testing:  14%|█▍        | 3/21 [00:02<00:10,  1.65it/s]Testing:  19%|█▉        | 4/21 [00:02<00:07,  2.37it/s]Testing:  24%|██▍       | 5/21 [00:03<00:11,  1.38it/s]Testing:  29%|██▊       | 6/21 [00:04<00:09,  1.56it/s]Testing:  33%|███▎      | 7/21 [00:04<00:06,  2.09it/s]Testing:  38%|███▊      | 8/21 [00:04<00:04,  2.69it/s]Testing:  43%|████▎     | 9/21 [00:05<00:06,  1.96it/s]Testing:  48%|████▊     | 10/21 [00:05<00:05,  1.97it/s]Testing:  52%|█████▏    | 11/21 [00:06<00:03,  2.53it/s]Testing:  57%|█████▋    | 12/21 [00:06<00:02,  3.13it/s]Testing:  62%|██████▏   | 13/21 [00:07<00:04,  1.75it/s]Testing:  67%|██████▋   | 14/21 [00:08<00:04,  1.57it/s]Testing:  71%|███████▏  | 15/21 [00:08<00:02,  2.05it/s]Testing:  76%|███████▌  | 16/21 [00:08<00:01,  2.61it/s]Testing:  81%|████████  | 17/21 [00:08<00:01,  2.65it/s]Testing:  86%|████████▌ | 18/21 [00:09<00:01,  2.04it/s]Testing:  90%|█████████ | 19/21 [00:09<00:00,  2.60it/s]Testing:  95%|█████████▌| 20/21 [00:09<00:00,  3.19it/s]Testing: 100%|██████████| 21/21 [00:10<00:00,  3.54it/s]Testing: 100%|██████████| 21/21 [00:10<00:00,  2.06it/s]
+osdd_ow
+Top 1
+closed_attr_match  0.1318| closed_obj_match  0.6605| AUC_attr  0.1072| seen_open_attr_all_bias_max  0.7657| unseen_open_attr_all_bias_max  0.205| hm_open_attr_all_bias_max  0.2707| best_unseen  0.1893| best_seen  0.6513| AUC  0.0947| best_hm  0.2324| 
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([14, 300])
+collections
+torch._utils
+torch._utils
+collections
+torch._utils
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+Testing:   0%|          | 0/17 [00:00<?, ?it/s]Testing:   6%|▌         | 1/17 [00:00<00:10,  1.46it/s]Testing:  12%|█▏        | 2/17 [00:00<00:05,  2.66it/s]Testing:  18%|█▊        | 3/17 [00:01<00:03,  3.63it/s]Testing:  24%|██▎       | 4/17 [00:01<00:02,  4.43it/s]Testing:  29%|██▉       | 5/17 [00:01<00:02,  4.59it/s]Testing:  35%|███▌      | 6/17 [00:01<00:02,  5.08it/s]Testing:  41%|████      | 7/17 [00:01<00:01,  5.51it/s]Testing:  47%|████▋     | 8/17 [00:01<00:01,  5.84it/s]Testing:  53%|█████▎    | 9/17 [00:01<00:01,  6.07it/s]Testing:  59%|█████▉    | 10/17 [00:02<00:01,  6.24it/s]Testing:  65%|██████▍   | 11/17 [00:02<00:00,  6.43it/s]Testing:  71%|███████   | 12/17 [00:02<00:00,  6.58it/s]Testing:  76%|███████▋  | 13/17 [00:02<00:00,  6.69it/s]Testing:  82%|████████▏ | 14/17 [00:02<00:00,  6.78it/s]Testing:  88%|████████▊ | 15/17 [00:02<00:00,  6.84it/s]Testing:  94%|█████████▍| 16/17 [00:02<00:00,  6.90it/s]Testing: 100%|██████████| 17/17 [00:03<00:00,  7.46it/s]Testing: 100%|██████████| 17/17 [00:03<00:00,  5.37it/s]osdd_cw
+Top 1
+closed_attr_match  0.6941| closed_obj_match  0.6428| AUC_attr  0.3355| seen_open_attr_all_bias_max  0.7036| unseen_open_attr_all_bias_max  0.7915| hm_open_attr_all_bias_max  0.7098| best_unseen  0.7922| best_seen  0.4849| AUC  0.3089| best_hm  0.4508| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:00<00:14,  1.42it/s]Testing:  10%|▉         | 2/21 [00:00<00:07,  2.62it/s]Testing:  14%|█▍        | 3/21 [00:01<00:05,  3.58it/s]Testing:  19%|█▉        | 4/21 [00:01<00:03,  4.39it/s]Testing:  24%|██▍       | 5/21 [00:01<00:03,  5.01it/s]Testing:  29%|██▊       | 6/21 [00:01<00:02,  5.46it/s]Testing:  33%|███▎      | 7/21 [00:01<00:02,  5.80it/s]Testing:  38%|███▊      | 8/21 [00:01<00:02,  6.03it/s]Testing:  43%|████▎     | 9/21 [00:01<00:01,  6.16it/s]Testing:  48%|████▊     | 10/21 [00:02<00:01,  6.32it/s]Testing:  52%|█████▏    | 11/21 [00:02<00:01,  6.48it/s]Testing:  57%|█████▋    | 12/21 [00:02<00:01,  6.50it/s]Testing:  62%|██████▏   | 13/21 [00:02<00:01,  6.52it/s]Testing:  67%|██████▋   | 14/21 [00:02<00:01,  6.56it/s]Testing:  71%|███████▏  | 15/21 [00:02<00:00,  6.61it/s]Testing:  76%|███████▌  | 16/21 [00:02<00:00,  6.56it/s]Testing:  81%|████████  | 17/21 [00:03<00:00,  6.71it/s]Testing:  86%|████████▌ | 18/21 [00:03<00:00,  6.78it/s]Testing:  90%|█████████ | 19/21 [00:03<00:00,  6.84it/s]Testing:  95%|█████████▌| 20/21 [00:03<00:00,  6.87it/s]Testing: 100%|██████████| 21/21 [00:03<00:00,  7.17it/s]Testing: 100%|██████████| 21/21 [00:03<00:00,  5.58it/s]
+osdd_cw
+Top 1
+closed_attr_match  0.3437| closed_obj_match  0.6077| AUC_attr  0.2618| seen_open_attr_all_bias_max  0.7866| unseen_open_attr_all_bias_max  0.5955| hm_open_attr_all_bias_max  0.383| best_unseen  0.5086| best_seen  0.6659| AUC  0.199| best_hm  0.3185| 
+Prepare dataset
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([1, 300])
+collections
+torch._utils
+torch._utils
+collections
+torch._utils
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+Testing:   0%|          | 0/15 [00:00<?, ?it/s]Testing:   7%|▋         | 1/15 [00:00<00:09,  1.44it/s]Testing:  13%|█▎        | 2/15 [00:01<00:10,  1.30it/s]Testing:  20%|██        | 3/15 [00:01<00:07,  1.58it/s]Testing:  27%|██▋       | 4/15 [00:02<00:04,  2.27it/s]Testing:  33%|███▎      | 5/15 [00:02<00:03,  2.97it/s]Testing:  40%|████      | 6/15 [00:02<00:03,  2.97it/s]Testing:  47%|████▋     | 7/15 [00:02<00:02,  3.64it/s]Testing:  53%|█████▎    | 8/15 [00:02<00:01,  4.29it/s]Testing:  60%|██████    | 9/15 [00:03<00:01,  4.87it/s]Testing:  67%|██████▋   | 10/15 [00:03<00:00,  5.33it/s]Testing:  73%|███████▎  | 11/15 [00:03<00:00,  5.71it/s]Testing:  80%|████████  | 12/15 [00:03<00:00,  5.99it/s]Testing:  87%|████████▋ | 13/15 [00:03<00:00,  6.26it/s]Testing:  93%|█████████▎| 14/15 [00:03<00:00,  6.43it/s]Testing: 100%|██████████| 15/15 [00:03<00:00,  6.76it/s]Testing: 100%|██████████| 15/15 [00:04<00:00,  3.74it/s]osdd_obj
+Top 1
+closed_attr_match  0.3575| closed_obj_match  1.0| AUC_attr  0.164| seen_open_attr_all_bias_max  0.766| unseen_open_attr_all_bias_max  0.4351| hm_open_attr_all_bias_max  0.3086| best_unseen  0.4354| best_seen  0.766| AUC  0.164| best_hm  0.3086| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:00<00:13,  1.49it/s]Testing:  10%|▉         | 2/21 [00:00<00:06,  2.73it/s]Testing:  14%|█▍        | 3/21 [00:00<00:04,  3.73it/s]Testing:  19%|█▉        | 4/21 [00:01<00:03,  4.49it/s]Testing:  24%|██▍       | 5/21 [00:01<00:03,  5.06it/s]Testing:  29%|██▊       | 6/21 [00:01<00:02,  5.51it/s]Testing:  33%|███▎      | 7/21 [00:01<00:02,  5.84it/s]Testing:  38%|███▊      | 8/21 [00:01<00:02,  6.08it/s]Testing:  43%|████▎     | 9/21 [00:01<00:01,  6.23it/s]Testing:  48%|████▊     | 10/21 [00:02<00:01,  6.33it/s]Testing:  52%|█████▏    | 11/21 [00:02<00:01,  6.48it/s]Testing:  57%|█████▋    | 12/21 [00:02<00:01,  6.50it/s]Testing:  62%|██████▏   | 13/21 [00:02<00:01,  6.50it/s]Testing:  67%|██████▋   | 14/21 [00:02<00:01,  6.44it/s]Testing:  71%|███████▏  | 15/21 [00:02<00:00,  6.53it/s]Testing:  76%|███████▌  | 16/21 [00:02<00:00,  6.64it/s]Testing:  81%|████████  | 17/21 [00:03<00:00,  6.73it/s]Testing:  86%|████████▌ | 18/21 [00:03<00:00,  6.82it/s]Testing:  90%|█████████ | 19/21 [00:03<00:00,  6.87it/s]Testing:  95%|█████████▌| 20/21 [00:03<00:00,  6.91it/s]Testing: 100%|██████████| 21/21 [00:03<00:00,  7.19it/s]Testing: 100%|██████████| 21/21 [00:03<00:00,  5.64it/s]
+osdd_obj
+Top 1
+closed_attr_match  0.3225| closed_obj_match  1.0| AUC_attr  0.1302| seen_open_attr_all_bias_max  0.757| unseen_open_attr_all_bias_max  0.5258| hm_open_attr_all_bias_max  0.2311| best_unseen  0.5545| best_seen  0.757| AUC  0.1304| best_hm  0.2311| 

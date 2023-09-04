@@ -1,0 +1,35 @@
+Prepare dataset
+# train pairs: 12 | # val pairs: 15 | # test pairs: 41
+# train images: 509 | # val images: 65 | # test images: 484
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 12 | # val pairs: 15 | # test pairs: 41
+# train images: 509 | # val images: 65 | # test images: 484
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 12 | # val pairs: 15 | # test pairs: 41
+# train images: 509 | # val images: 65 | # test images: 484
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/cgqa_states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([5, 300])
+Loaded embeddings from file ./datasets/cgqa_states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([18, 300])
+collections
+torch._utils
+torch._utils
+collections
+torch._utils
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:01<00:00,  1.69s/it]Testing: 100%|██████████| 1/1 [00:01<00:00,  1.78s/it]cgqa_split2_tr_ow
+Top 1
+closed_attr_match  0.0| closed_obj_match  0.4615| AUC_attr  -0.3845| seen_open_attr_all_bias_max  0.8182| unseen_open_attr_all_bias_max  0.9| hm_open_attr_all_bias_max  nan| best_unseen  0.0| best_seen  0.5455| AUC  0.0| best_hm  0.0| 
+Test set:
+
+Testing:   0%|          | 0/2 [00:00<?, ?it/s]Testing:  50%|█████     | 1/2 [00:07<00:07,  7.23s/it]Testing: 100%|██████████| 2/2 [00:07<00:00,  3.06s/it]Testing: 100%|██████████| 2/2 [00:07<00:00,  3.73s/it]
+cgqa_split2_tr_ow
+Top 1
+closed_attr_match  0.1818| closed_obj_match  0.5847| AUC_attr  0.1134| seen_open_attr_all_bias_max  0.9478| unseen_open_attr_all_bias_max  0.24| hm_open_attr_all_bias_max  0.1891| best_unseen  0.1429| best_seen  0.7015| AUC  0.0383| best_hm  0.091| 
