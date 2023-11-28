@@ -71,7 +71,7 @@ if __name__ == "__main__":
     
     
 
-    if(args.dataset=='osdd'):
+    if(args.dataset=='osdd' or args.dataset=='vaw'):
     
         classes_dict={
         
