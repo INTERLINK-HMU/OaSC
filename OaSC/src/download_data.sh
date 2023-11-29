@@ -3,7 +3,6 @@
 
 CURRENT_DIR=$(pwd)
 
-
 fileid="1i-jaMPKoBOmBncKBQ3qpsGQ9pLWgwRbz"
 filename="OaSC_material.tar.gz"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`

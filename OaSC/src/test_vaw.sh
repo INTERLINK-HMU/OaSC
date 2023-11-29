@@ -7,7 +7,7 @@ saved_weights_path="../saved_checkpoints/vaw/finetuned_weights.pth"
 dataset='vaw'
 VARIABLE='empty_open_folded_filled' 
 test_dir="../datasets/vaw/test"
-embeddings='../embeddings/osdd_emb.pred'
+embeddings='../embeddings/vaw_emb.pred'
 
 cuda_device=0
 

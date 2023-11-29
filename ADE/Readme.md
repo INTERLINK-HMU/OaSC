@@ -76,7 +76,17 @@ python test.py --logpath "./logs/cgqa_split2_tr_cw" --auc
 ```
 
 
+**VAw  Dataset**
 
+
+```
+ python test.py --logpath "./logs/vaw_object" --auc 
+
+ python test.py --logpath "./logs/vaw_ow" --auc 
+
+ python test.py --logpath "./logs/vaw_cw" --auc  
+
+```
 
 
 ## Training from scratch
@@ -122,5 +132,20 @@ python train.py --config "./configs/mit_states_ow.yml"
 python train.py --config "./configs/mit_states_cw.yml"
 
 ```
+
+
+
+**VAW  Dataset**
+
+
+```
+python train.py --config "./configs/vaw_obj.yml"  
+
+python train.py --config "./configs/vaw_ow.yml"
+
+python train.py --config "./configs/vaw_cw.yml"
+
+```
+
 
 

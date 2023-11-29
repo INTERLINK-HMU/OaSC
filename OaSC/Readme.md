@@ -31,21 +31,24 @@ After the  script completes, the repo must have the following folder structure.
 ├── datasets
 │   ├── cgqa
 │   ├── mit_states
-│   └── osdd
+│   ├── osdd
+│   └── vaw
 ├── embeddings
 │   ├── cgqa_emb.pred
 │   ├── mit_emb.pred
-│   └── osdd_emb.pred
+│   ├── osdd_emb.pred
+│   └── vaw_emb.pred
 ├── environment.yml
 ├── Material_for_save
 │   ├── datasets
 │   ├── saved_checkpoints
-│   └──split2
+│   └── split2
 ├── Readme.md
 ├── saved_checkpoints
 │   ├── cgqa
 │   ├── mit
-│   └── osdd
+│   ├── osdd
+│   └── vaw
 └── src
     ├── data
     ├── download_data.sh
@@ -61,6 +64,7 @@ After the  script completes, the repo must have the following folder structure.
     ├── test_gnn.sh
     ├── test_mit.sh
     ├── test_osdd.sh
+    ├── test_vaw.sh
     ├── test.py
     ├── test.sh
     ├── train_gnn.py
@@ -96,7 +100,14 @@ bash  test_cgqa.sh
 bash  test_mit.sh
 
 ```
+**VAW  Dataset**
 
+- To reproduce the reported results for VAW Dataset, adjust the weights and the embeddings paths in test_vaw.sh and run:
+
+```
+bash  test_vaw.sh
+
+```
 
 ## Training from scratch
 
@@ -177,3 +188,23 @@ bash  finetune_mit.sh
 bash  test_mit.sh
 
 ```
+
+**VAW  Dataset**
+
+- Adjust the embeddings path in the finetune_vaw.sh script and then run it:
+
+
+
+```
+bash  finetune_mit.sh
+
+```
+
+- Adjust the weights path in the test_vaw.sh script and then run it:
+
+
+```
+bash  test_mit.sh
+
+```
+
