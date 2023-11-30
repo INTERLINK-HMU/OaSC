@@ -67,9 +67,23 @@ python test.py --dataset mit_obj --auc
 
 python test.py --dataset mit_cw  --auc
 
-python test.py --dataset mitd_ow  --auc
+python test.py --dataset mit_ow  --auc
 
 ```
+
+
+**MIT-States  Dataset**
+
+```
+python test.py --dataset vaw_obj --auc
+
+python test.py --dataset vaw_cw  --auc
+
+python test.py --dataset vaw_ow  --auc
+
+```
+
+
 
 
 ## Training from scratch
@@ -109,8 +123,19 @@ python train.py --dataset mit_obj
 
 python train.py --dataset mit_cw  
 
-python train.py --dataset mitd_ow  
+python train.py --dataset mit_ow  
 ```
+
+**VAW  Dataset**
+
+```
+python train.py --dataset vaw_obj 
+
+python train.py --dataset vaw_cw  
+
+python train.py --dataset aw_ow  
+```
+
 
 
 

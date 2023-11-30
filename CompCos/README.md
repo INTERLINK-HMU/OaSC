@@ -59,6 +59,14 @@ bash test_mit.sh
 
 ```
 
+**MIT-States  Dataset**
+
+
+```
+bash test_vaw.sh
+
+```
+
 
 ## Training from scratch
 
@@ -85,6 +93,16 @@ bash train_cgqa.sh
 
 ```
 bash train_mit.sh
+
+```
+
+
+
+**VAW Dataset**
+
+
+```
+bash train_vaw.sh
 
 ```
 
