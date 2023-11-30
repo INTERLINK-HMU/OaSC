@@ -72,7 +72,7 @@ python test.py --dataset mit_ow  --auc
 ```
 
 
-**MIT-States  Dataset**
+**VAW  Dataset**
 
 ```
 python test.py --dataset vaw_obj --auc
@@ -82,6 +82,7 @@ python test.py --dataset vaw_cw  --auc
 python test.py --dataset vaw_ow  --auc
 
 ```
+
 
 
 

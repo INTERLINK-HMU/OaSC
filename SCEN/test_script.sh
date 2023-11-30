@@ -29,8 +29,15 @@ CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr
 
 CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr_cw" --test_batch_size   8  --auc  &>> "results_mit.txt"  
 
-
 CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr_object" --test_batch_size   8  --auc  &>> "results_mit.txt"  
+
+
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_ow" --test_batch_size   8  --auc &> "results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_cw" --test_batch_size   8  --auc  &>> "results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_object" --test_batch_size   8  --auc  &>> "results_vaw.txt"  
 
 
  

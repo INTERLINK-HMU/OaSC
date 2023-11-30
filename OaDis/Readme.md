@@ -71,6 +71,17 @@ python test.py --cfg config/mit_cw.yml --load saved_models/mit_cw/mit_cw_124/bes
 
 ```
 
+**VAW  Dataset**
+
+```
+
+python test.py --cfg config/vaw_states_ow.yml --load saved_models/vaw_states__ow/vaw_states__ow_124/best.pth  
+
+python test.py --cfg config/vaw_states__cw.yml --load saved_models/vaw_states__cw/vaw_states__cw_124/best.pth  
+
+python test.py --cfg config/vaw_states__obj_ow.yml --load saved_models/vaw_states__obj/vaw_states__obj_ow_124/best.pth 
+
+```
 
 
 ## Training from scratch
@@ -113,6 +124,19 @@ python train.py --cfg configs/mit_ow.yml
 python train.py --cfg configs/mit_cw.yml
 
 ```
+
+
+**VAW Dataset**
+
+```
+python train.py --cfg configs/vaw_states_obj.yml
+
+python train.py --cfg configs/vaw_states_ow.yml
+
+python train.py --cfg configs/vaw_states_cw.yml
+
+```
+
 
 
 

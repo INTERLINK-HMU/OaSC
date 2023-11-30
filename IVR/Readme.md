@@ -69,6 +69,17 @@ python test.py --logpath logs/IVR/mit_cw --auc
 ```
 
 
+**VAW  Dataset**
+
+```
+python test.py --logpath logs/IVR/vaw_obj --auc 
+
+python test.py --logpath logs/IVR/vaw_ow --auc 
+
+python test.py --logpath logs/IVR/vaw_cw --auc
+```
+
+
 
 ## Training from scratch
 
@@ -109,4 +120,16 @@ python train.py --config configs/mit_ow.yml
 
 python train.py --config configs/mit_cw.yml
 ```
+
+
+**VAW  Dataset**
+
+```
+python train.py --config configs/vaw_obj.yml
+
+python train.py --config configs/vaw_ow.yml
+
+python train.py --config configs/vaw_cw.yml
+```
+
 

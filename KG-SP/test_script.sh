@@ -33,6 +33,15 @@ CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr
 
 
 
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_ow"  --auc &> "results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_cw" --auc  &>>"results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_object" --auc  &>>"results_vaw.txt"  
+
+
+
+
 
  
 
