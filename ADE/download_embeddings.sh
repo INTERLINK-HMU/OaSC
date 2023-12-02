@@ -1,7 +1,7 @@
 
 
+#mkdir data
 cd datasets
-
 CURRENT_DIR=$(pwd)
 
 
@@ -46,5 +46,5 @@ rm glove/glove.6B.50d.txt
 rm glove/glove.6B.100d.txt
 rm glove/glove.6B.200d.txt
 rm glove.6B.zip 
-rm cc.en.300.bin.gz
+#rm cc.en.300.bin.gz
 

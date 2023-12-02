@@ -1,0 +1,84 @@
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([14, 300])
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 111, in main
+    checkpoint = torch.load(args.load)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './logs/zero_shot_split1_tr_ow/ckpt_AUC_attr.t7'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 14, Validation pairs: 18, Test Pairs: 35
+Train images: 4421, Validation images: 4152, Test images: 5272
+Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([14, 300])
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 111, in main
+    checkpoint = torch.load(args.load)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './logs/zero_shot_split1_tr_cw/ckpt_AUC_attr.t7'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 4, Validation pairs: 5, Test Pairs: 9
+Train images: 4822, Validation images: 3751, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 4, Validation pairs: 5, Test Pairs: 9
+Train images: 4822, Validation images: 3751, Test images: 5272
+Using all pairs
+Dataset loaded
+Train pairs: 4, Validation pairs: 5, Test Pairs: 9
+Train images: 4822, Validation images: 3751, Test images: 5272
+Word2Vec Embeddings loaded, total embeddings: torch.Size([9, 300])
+Word2Vec Embeddings loaded, total embeddings: torch.Size([1, 300])
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 111, in main
+    checkpoint = torch.load(args.load)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './logs/zero_shot_split1_tr_object/ckpt_AUC_attr.t7'

@@ -1,0 +1,42 @@
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 88, in main
+    image_extractor, model, optimizer = configure_model(args, trainset)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/utils/config_model.py", line 15, in configure_model
+    model = ADE(dataset, args)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/ade.py", line 162, in __init__
+    pretrained_weight = load_word_embeddings(args.emb_init, dset.attrs)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 10, in load_word_embeddings
+    embeds = load_word2vec_embeddings(vocab)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 90, in load_word2vec_embeddings
+    model = models.KeyedVectors.load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1719, in load_word2vec_format
+    return _load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 2065, in _load_word2vec_format
+    _word2vec_read_binary(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1960, in _word2vec_read_binary
+    processed_words, chunk = _add_bytes_to_kv(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1943, in _add_bytes_to_kv
+    _add_word_to_kv(kv, counts, word, vector, vocab_size)
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1908, in _add_word_to_kv
+    if kv.has_index_for(word):
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 646, in has_index_for
+    return self.get_index(key, -1) >= 0
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 412, in get_index
+    val = self.key_to_index.get(key, -1)
+KeyboardInterrupt

@@ -1,0 +1,108 @@
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 88, in main
+    image_extractor, model, optimizer = configure_model(args, trainset)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/utils/config_model.py", line 15, in configure_model
+    model = ADE(dataset, args)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/ade.py", line 162, in __init__
+    pretrained_weight = load_word_embeddings(args.emb_init, dset.attrs)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 10, in load_word_embeddings
+    embeds = load_word2vec_embeddings(vocab)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 90, in load_word2vec_embeddings
+    model = models.KeyedVectors.load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1719, in load_word2vec_format
+    return _load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 2048, in _load_word2vec_format
+    with utils.open(fname, 'rb') as fin:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 188, in open
+    fobj = _shortcut_open(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 361, in _shortcut_open
+    return _builtin_open(local_path, mode, buffering=buffering, **open_kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: './datasets//w2v/GoogleNews-vectors-negative300.bin'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Using all pairs
+Dataset loaded
+Train pairs: 6, Validation pairs: 7, Test Pairs: 20
+Train images: 131, Validation images: 42, Test images: 349
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 88, in main
+    image_extractor, model, optimizer = configure_model(args, trainset)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/utils/config_model.py", line 15, in configure_model
+    model = ADE(dataset, args)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/ade.py", line 162, in __init__
+    pretrained_weight = load_word_embeddings(args.emb_init, dset.attrs)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 10, in load_word_embeddings
+    embeds = load_word2vec_embeddings(vocab)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 90, in load_word2vec_embeddings
+    model = models.KeyedVectors.load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1719, in load_word2vec_format
+    return _load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 2048, in _load_word2vec_format
+    with utils.open(fname, 'rb') as fin:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 188, in open
+    fobj = _shortcut_open(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 361, in _shortcut_open
+    return _builtin_open(local_path, mode, buffering=buffering, **open_kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: './datasets//w2v/GoogleNews-vectors-negative300.bin'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE
+AO weight:1.0
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 67, Validation images: 130, Test images: 354
+Traceback (most recent call last):
+  File "test.py", line 222, in <module>
+    main()
+  File "test.py", line 88, in main
+    image_extractor, model, optimizer = configure_model(args, trainset)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/utils/config_model.py", line 15, in configure_model
+    model = ADE(dataset, args)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/ade.py", line 162, in __init__
+    pretrained_weight = load_word_embeddings(args.emb_init, dset.attrs)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 10, in load_word_embeddings
+    embeds = load_word2vec_embeddings(vocab)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/ADE/models/word_embedding.py", line 90, in load_word2vec_embeddings
+    model = models.KeyedVectors.load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 1719, in load_word2vec_format
+    return _load_word2vec_format(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/gensim/models/keyedvectors.py", line 2048, in _load_word2vec_format
+    with utils.open(fname, 'rb') as fin:
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 188, in open
+    fobj = _shortcut_open(
+  File "/home/gouidis/anaconda3/envs/ade/lib/python3.8/site-packages/smart_open/smart_open_lib.py", line 361, in _shortcut_open
+    return _builtin_open(local_path, mode, buffering=buffering, **open_kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: './datasets//w2v/GoogleNews-vectors-negative300.bin'

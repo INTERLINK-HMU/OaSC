@@ -9,7 +9,7 @@ CURRENT_DIR=$(pwd)
 #https://drive.google.com/file/d/17-bznLeiNNXc9URRJWqpy2yEabeVwvZP/view?usp=sharing
 
 
-fileid="17-bznLeiNNXc9URRJWqpy2yEabeVwvZP/"
+fileid="17-bznLeiNNXc9URRJWqpy2yEabeVwvZP"
 filename="splits.tar.gz"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
@@ -29,9 +29,13 @@ tar -zxvf images.tar.gz
 
 mv dat/* ./
 rm -r dat/
+
 tar -zxvf osdd_images.tar.gz -C osdd/
+
 tar -zxvf mit_images.tar.gz -C mit-states/
+
 tar -zxvf cgqa_images.tar.gz -C cgqa_states/
+
 tar -zxvf vaw_images.tar.gz -C vaw_states/
 
 
@@ -51,6 +55,13 @@ ln -s  $CURRENT_DIR/vaw/images vaw_states/obj_split/images
 
 rm  -r  vaw_states/obj_split/images
 ln -s  $CURRENT_DIR/vaw/images vaw_states/obj_split/images
+
+
+wget https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain.pth
+
+mkdir pretrain
+
+mv dino_vitbase16_pretrain.pth pretrain/
 
 rm splits.tar.gz
 rm images.tar.gz
