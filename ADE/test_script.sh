@@ -40,7 +40,7 @@ CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_ow" --auc
 CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_cw" --auc  &>>"results_vaw.txt"  
 
 
-CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_obj" --auc  &>> "results_vaw.txt"  
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_obj_ow" --auc  &>> "results_vaw.txt"  
 #CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_object" --auc  &>> "results_vaw.txt"  
 
 

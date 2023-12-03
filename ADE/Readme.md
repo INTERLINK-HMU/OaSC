@@ -14,8 +14,6 @@ conda activate ade
 
 ## Preperation:
 - Download the datasets. the pretrained weights for and  the embeddings for the model by openning a terminal and running the following scripts in the terminal:
-- Download the datasets and  the embeddings for the model by openning a terminal and running the following script in the terminal:
-
 ```
 bash download_data.sh
 bash download_embeddings.sh
@@ -140,7 +138,7 @@ python train.py --config "./configs/mit_states_cw.yml"
 
 
 ```
-python train.py --config "./configs/vaw_obj.yml"  
+python train.py --config "./configs/vaw_obj_ow.yml"  
 
 python train.py --config "./configs/vaw_ow.yml"
 

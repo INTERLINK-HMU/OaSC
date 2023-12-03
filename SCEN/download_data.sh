@@ -17,7 +17,7 @@ curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|gre
 
  tar -zxvf splits.tar.gz
 #https://drive.google.com/file/d/1hZeokByPOFWfI-KNUq4GRQ8mvmhir-Ij/view?usp=drive_link
-fileid="1OrQHY_tLuEHxL5wo0DSrtYjVbPf0KAEM"
+#fileid="1OrQHY_tLuEHxL5wo0DSrtYjVbPf0KAEM"
 fileid="1hZeokByPOFWfI-KNUq4GRQ8mvmhir-Ij"
 filename="images.tar.gz"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
@@ -69,8 +69,3 @@ rm vaw_images.tar.gz
 
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> e86f511897995ada3b55f7d17e6d26854a47c931

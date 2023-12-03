@@ -18,7 +18,7 @@ curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|gre
  tar -zxvf splits.tar.gz
 #https://drive.google.com/file/d/1hZeokByPOFWfI-KNUq4GRQ8mvmhir-Ij/view?usp=drive_link
 fileid="1OrQHY_tLuEHxL5wo0DSrtYjVbPf0KAEM"
-fileid="1hZeokByPOFWfI-KNUq4GRQ8mvmhir-Ij"
+#fileid="1hZeokByPOFWfI-KNUq4GRQ8mvmhir-Ij"
 filename="images.tar.gz"
 html=`curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}"`
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&`echo ${html}|grep -Po '(confirm=[a-zA-Z0-9\-_]+)'`&id=${fileid}" -o ${filename}
