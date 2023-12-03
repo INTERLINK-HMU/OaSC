@@ -147,3 +147,5 @@ notebooks/._mit_graph.pdf
 env/
 datasets/
 notebooks/
+data/*/
+data/attr-ops-data.tar.gz

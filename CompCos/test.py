@@ -94,7 +94,7 @@ def main():
      
      
     if(args.auc):
-        args.load = ospj(logpath,'ckpt_best_auc.t7')
+        args.load = ospj(logpath,'ckpt_AUC_attr.t7')
        
     checkpoint = torch.load(args.load)
     if image_extractor:
