@@ -1,0 +1,80 @@
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/KG-SP
+./logs/cgqa_split2_tr_ow
+Testing in an open world
+Using only train pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+feasibility_scores/cgqa_states_conceptnet.npy
+Learnable image_embeddings
+Traceback (most recent call last):
+  File "test.py", line 319, in <module>
+    main()
+  File "test.py", line 106, in main
+    checkpoint = torch.load(args.load)
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 581, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './logs/cgqa_split2_tr_ow/ckpt_AUC_attr.t7'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/KG-SP
+./logs/cgqa_split2_tr_cw
+Using only train pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+Using all pairs
+Dataset loaded
+Train pairs: 12, Validation pairs: 15, Test Pairs: 41
+Train images: 509, Validation images: 65, Test images: 484
+feasibility_scores/cgqa_states_conceptnet.npy
+Learnable image_embeddings
+Traceback (most recent call last):
+  File "test.py", line 319, in <module>
+    main()
+  File "test.py", line 106, in main
+    checkpoint = torch.load(args.load)
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 581, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/kg-sp/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './logs/cgqa_split2_tr_cw/ckpt_AUC_attr.t7'
+/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/KG-SP
+./logs/cgqa_split2_tr_object
+Using only train pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 492, Validation images: 105, Test images: 497
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 492, Validation images: 105, Test images: 497
+Using all pairs
+Dataset loaded
+Train pairs: 1, Validation pairs: 2, Test Pairs: 5
+Train images: 492, Validation images: 105, Test images: 497
+feasibility_scores/cgqa_states_obj_conceptnet.npy
+Learnable image_embeddings
+Evaluating with test pairs
+[('open', 'object')]
+[('open', 'object'), ('empty', 'object')]
+Testing:   0%|          | 0/2 [00:00<?, ?it/s]Testing:  50%|█████     | 1/2 [00:15<00:15, 15.87s/it]Testing: 100%|██████████| 2/2 [00:16<00:00,  6.69s/it]Testing: 100%|██████████| 2/2 [00:16<00:00,  8.16s/it]
+tensor(1.) tensor(0.) tensor(0.)
+cgqa_split2_tr_object
+|----Test Finished: Attr Acc: 6.04% | Obj Acc: 100.00% | Seen Acc: 96.90% | Unseen Acc: 8.15%  | HM: 10.74% | AUC: 4.52%.        | Seen Acc attr: 96.90% | Unseen Acc attr: 8.15 | HM_attr: 10.74% | AUC_attr: 4.52%

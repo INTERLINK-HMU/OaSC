@@ -1,0 +1,22 @@
+Extracting features resnet18:   0%|          | 0/2641 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 1/2641 [00:03<2:30:14,  3.41s/it]Extracting features resnet18:   0%|          | 2/2641 [00:06<2:09:11,  2.94s/it]Extracting features resnet18:   0%|          | 3/2641 [00:07<1:30:48,  2.07s/it]Extracting features resnet18:   0%|          | 4/2641 [00:08<1:12:54,  1.66s/it]Extracting features resnet18:   0%|          | 5/2641 [00:11<1:35:57,  2.18s/it]Extracting features resnet18:   0%|          | 6/2641 [00:14<1:45:24,  2.40s/it]Extracting features resnet18:   0%|          | 7/2641 [00:24<3:42:52,  5.08s/it]Extracting features resnet18:   0%|          | 8/2641 [00:33<4:30:47,  6.17s/it]Extracting features resnet18:   0%|          | 9/2641 [00:35<3:40:26,  5.03s/it]Extracting features resnet18:   0%|          | 10/2641 [00:37<3:00:18,  4.11s/it]Extracting features resnet18:   0%|          | 11/2641 [00:39<2:30:12,  3.43s/it]Extracting features resnet18:   0%|          | 12/2641 [00:41<2:09:34,  2.96s/it]Extracting features resnet18:   0%|          | 13/2641 [00:43<2:01:27,  2.77s/it]Extracting features resnet18:   1%|          | 14/2641 [00:46<2:02:38,  2.80s/it]Extracting features resnet18:   1%|          | 15/2641 [00:51<2:27:47,  3.38s/it]Extracting features resnet18:   1%|          | 15/2641 [00:57<2:48:29,  3.85s/it]
+[('closed', 'object'), ('connected', 'object'), ('empty', 'object'), ('filled', 'object'), ('folded', 'object'), ('occupied', 'object'), ('open', 'object'), ('unconnected', 'object'), ('unfolded', 'object')]
+Dataset loaded
+Train pairs: 4, Validation pairs: 5, Test Pairs: 9
+Train images: 4822, Validation images: 3751, Test images: 5272
+Using resnet18 and feature file ./datasets/osdd/compcos_dif_val/resnet18_features.t7
+Traceback (most recent call last):
+  File "test.py", line 138, in <module>
+    main()
+  File "test.py", line 30, in main
+    trainset = dset.CompositionDataset(
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 117, in __init__
+    self.generate_features(feat_file, model)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 183, in generate_features
+    imgs = list(map(self.loader, files))
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 26, in __call__
+    img = Image.open(ospj(self.root_dir,img)).convert('RGB')
+  File "/home/gouidis/anaconda3/envs/czsl-scen/lib/python3.8/site-packages/PIL/Image.py", line 904, in convert
+    self.load()
+  File "/home/gouidis/anaconda3/envs/czsl-scen/lib/python3.8/site-packages/PIL/ImageFile.py", line 265, in load
+    n, err_code = decoder.decode(b)
+KeyboardInterrupt

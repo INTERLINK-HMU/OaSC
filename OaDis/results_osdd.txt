@@ -1,0 +1,226 @@
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([14, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/17 [00:00<?, ?it/s]Testing:   6%|▌         | 1/17 [00:21<05:39, 21.20s/it]Testing:  18%|█▊        | 3/17 [00:21<01:17,  5.55s/it]Testing:  29%|██▉       | 5/17 [00:25<00:46,  3.88s/it]Testing:  41%|████      | 7/17 [00:26<00:22,  2.27s/it]Testing:  53%|█████▎    | 9/17 [00:32<00:21,  2.69s/it]Testing:  65%|██████▍   | 11/17 [00:33<00:10,  1.78s/it]Testing:  76%|███████▋  | 13/17 [00:35<00:06,  1.61s/it]Testing:  88%|████████▊ | 15/17 [00:35<00:02,  1.12s/it]Testing: 100%|██████████| 17/17 [00:36<00:00,  1.23it/s]Testing: 100%|██████████| 17/17 [00:36<00:00,  2.13s/it]osdd_ow
+Top 1
+closed_attr_match  0.3085| closed_obj_match  0.5443| AUC_attr  0.1328| seen_open_attr_all_bias_max  0.7357| unseen_open_attr_all_bias_max  0.5408| hm_open_attr_all_bias_max  0.5868| best_unseen  0.3801| best_seen  0.4859| AUC  0.1657| best_hm  0.363| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:08<02:52,  8.62s/it]Testing:  14%|█▍        | 3/21 [00:14<01:20,  4.46s/it]Testing:  24%|██▍       | 5/21 [00:17<00:44,  2.78s/it]Testing:  33%|███▎      | 7/21 [00:23<00:42,  3.01s/it]Testing:  43%|████▎     | 9/21 [00:26<00:28,  2.37s/it]Testing:  48%|████▊     | 10/21 [00:28<00:25,  2.30s/it]Testing:  52%|█████▏    | 11/21 [00:31<00:25,  2.57s/it]Testing:  57%|█████▋    | 12/21 [00:33<00:21,  2.35s/it]Testing:  62%|██████▏   | 13/21 [00:38<00:24,  3.02s/it]Testing:  71%|███████▏  | 15/21 [00:38<00:10,  1.76s/it]Testing:  76%|███████▌  | 16/21 [00:38<00:06,  1.40s/it]Testing:  81%|████████  | 17/21 [00:45<00:10,  2.65s/it]Testing:  90%|█████████ | 19/21 [00:47<00:04,  2.07s/it]Testing: 100%|██████████| 21/21 [00:47<00:00,  1.35s/it]Testing: 100%|██████████| 21/21 [00:48<00:00,  2.29s/it]
+osdd_ow
+Top 1
+closed_attr_match  0.1318| closed_obj_match  0.6603| AUC_attr  0.1071| seen_open_attr_all_bias_max  0.7649| unseen_open_attr_all_bias_max  0.2053| hm_open_attr_all_bias_max  0.2706| best_unseen  0.1893| best_seen  0.6505| AUC  0.0945| best_hm  0.2322| 
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Traceback (most recent call last):
+  File "test.py", line 91, in <module>
+    model = OADIS(trainset, cfg)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/OaDis/models/oadis.py", line 40, in __init__
+    self._setup_word_composer(dset, cfg)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/OaDis/models/oadis.py", line 75, in _setup_word_composer
+    initialize_wordembedding_matrix(cfg.MODEL.wordembs, dset.attrs, cfg)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/OaDis/models/word_embedding_utils.py", line 153, in initialize_wordembedding_matrix
+    f'{cfg.DATASET.root_dir}/../../glove/glove.6B.300d.txt', vocab)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/OaDis/models/word_embedding_utils.py", line 10, in load_word_embeddings
+    wvec = torch.FloatTensor(list(map(float, line[1:])))
+KeyboardInterrupt
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([14, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/17 [00:00<?, ?it/s]Testing:   6%|▌         | 1/17 [00:03<00:49,  3.09s/it]Testing:  18%|█▊        | 3/17 [00:03<00:12,  1.15it/s]Testing:  24%|██▎       | 4/17 [00:03<00:07,  1.64it/s]Testing:  29%|██▉       | 5/17 [00:03<00:05,  2.26it/s]Testing:  35%|███▌      | 6/17 [00:03<00:03,  2.99it/s]Testing:  41%|████      | 7/17 [00:03<00:02,  3.83it/s]Testing:  53%|█████▎    | 9/17 [00:03<00:01,  5.40it/s]Testing:  59%|█████▉    | 10/17 [00:06<00:05,  1.39it/s]Testing:  71%|███████   | 12/17 [00:14<00:10,  2.05s/it]Testing:  76%|███████▋  | 13/17 [00:14<00:06,  1.61s/it]Testing:  82%|████████▏ | 14/17 [00:14<00:03,  1.26s/it]Testing:  88%|████████▊ | 15/17 [00:14<00:02,  1.01s/it]Testing:  94%|█████████▍| 16/17 [00:17<00:01,  1.55s/it]Testing: 100%|██████████| 17/17 [00:17<00:00,  1.06s/it]osdd_ow
+Top 1
+closed_attr_match  0.3085| closed_obj_match  0.5443| AUC_attr  0.1328| seen_open_attr_all_bias_max  0.7357| unseen_open_attr_all_bias_max  0.5408| hm_open_attr_all_bias_max  0.5868| best_unseen  0.3801| best_seen  0.4859| AUC  0.1657| best_hm  0.363| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   0%|          | 0/21 [00:31<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 1325570) is killed by signal: Killed. 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "test.py", line 105, in <module>
+    auc, best_hm,auc_attr,best_hm_attr  = validate_ge(model, testloader, evaluator_test_ge, device, topks=topks)
+  File "test.py", line 22, in validate_ge
+    for _, data in tqdm(enumerate(testloader), total=len(testloader), desc='Testing'):
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/tqdm/std.py", line 1166, in __iter__
+    for obj in iterable:
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1133, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str)) from e
+RuntimeError: DataLoader worker (pid(s) 1325570) exited unexpectedly
+Prepare dataset
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+# train pairs: 14 | # val pairs: 18 | # test pairs: 35
+# train images: 4421 | # val images: 4152 | # test images: 5272
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([14, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/17 [00:00<?, ?it/s]Testing:   6%|▌         | 1/17 [00:29<07:47, 29.24s/it]Testing:  12%|█▏        | 2/17 [00:29<03:01, 12.11s/it]Testing:  24%|██▎       | 4/17 [00:29<00:59,  4.56s/it]Testing:  24%|██▎       | 4/17 [00:40<00:59,  4.56s/it]Testing:  29%|██▉       | 5/17 [13:11<47:45, 238.76s/it]Testing:  41%|████      | 7/17 [13:11<21:07, 126.78s/it]Testing:  53%|█████▎    | 9/17 [13:24<10:28, 78.56s/it] Testing:  65%|██████▍   | 11/17 [13:24<04:59, 49.96s/it]Testing:  65%|██████▍   | 11/17 [13:36<04:59, 49.96s/it]Testing:  76%|███████▋  | 13/17 [13:37<02:20, 35.11s/it]Testing:  88%|████████▊ | 15/17 [13:38<00:47, 23.61s/it]Testing: 100%|██████████| 17/17 [13:39<00:00, 16.36s/it]Testing: 100%|██████████| 17/17 [13:40<00:00, 48.24s/it]osdd_cw
+Top 1
+closed_attr_match  0.6941| closed_obj_match  0.6428| AUC_attr  0.3366| seen_open_attr_all_bias_max  0.7036| unseen_open_attr_all_bias_max  0.7915| hm_open_attr_all_bias_max  0.7098| best_unseen  0.7922| best_seen  0.4849| AUC  0.309| best_hm  0.4511| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:18<06:14, 18.70s/it]Testing:  14%|█▍        | 3/21 [00:32<02:59,  9.96s/it]Testing:  24%|██▍       | 5/21 [00:34<01:24,  5.29s/it]Testing:  33%|███▎      | 7/21 [06:08<17:13, 73.82s/it]Testing:  43%|████▎     | 9/21 [06:08<09:12, 46.02s/it]Testing:  48%|████▊     | 10/21 [06:16<06:56, 37.87s/it]Testing:  52%|█████▏    | 11/21 [06:23<05:08, 30.86s/it]Testing:  62%|██████▏   | 13/21 [06:24<02:28, 18.57s/it]Testing:  67%|██████▋   | 14/21 [06:28<01:48, 15.45s/it]Testing:  71%|███████▏  | 15/21 [06:32<01:15, 12.61s/it]Testing:  81%|████████  | 17/21 [06:32<00:30,  7.50s/it]Testing:  86%|████████▌ | 18/21 [06:45<00:26,  8.75s/it]Testing:  90%|█████████ | 19/21 [06:47<00:14,  7.14s/it]Testing:  95%|█████████▌| 20/21 [06:48<00:05,  5.47s/it]Testing: 100%|██████████| 21/21 [06:48<00:00, 19.45s/it]
+osdd_cw
+Top 1
+closed_attr_match  0.3441| closed_obj_match  0.6077| AUC_attr  0.2617| seen_open_attr_all_bias_max  0.7866| unseen_open_attr_all_bias_max  0.5959| hm_open_attr_all_bias_max  0.3832| best_unseen  0.5093| best_seen  0.6659| AUC  0.1989| best_hm  0.3181| 
+Prepare dataset
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+# train pairs: 4 | # val pairs: 5 | # test pairs: 9
+# train images: 4822 | # val images: 3751 | # test images: 5272
+closed is associated with <= 1 object: ['object']
+connected is associated with <= 1 object: ['object']
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+occupied is associated with <= 1 object: ['object']
+open is associated with <= 1 object: []
+unconnected is associated with <= 1 object: []
+unfolded is associated with <= 1 object: ['object']
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([9, 300])
+Loaded embeddings from file ./datasets/osdd/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([1, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/15 [00:00<?, ?it/s]Testing:   7%|▋         | 1/15 [00:26<06:06, 26.20s/it]Testing:  20%|██        | 3/15 [00:26<01:22,  6.84s/it]Testing:  33%|███▎      | 5/15 [00:31<00:47,  4.73s/it]Testing:  40%|████      | 6/15 [00:32<00:32,  3.62s/it]Testing:  53%|█████▎    | 8/15 [00:32<00:14,  2.08s/it]Testing:  60%|██████    | 9/15 [00:35<00:14,  2.34s/it]Testing:  67%|██████▋   | 10/15 [00:37<00:11,  2.20s/it]Testing:  80%|████████  | 12/15 [00:37<00:03,  1.31s/it]Testing:  87%|████████▋ | 13/15 [00:46<00:05,  2.99s/it]Testing:  93%|█████████▎| 14/15 [00:48<00:02,  2.81s/it]Testing: 100%|██████████| 15/15 [00:48<00:00,  3.25s/it]osdd_obj
+Top 1
+closed_attr_match  0.3575| closed_obj_match  1.0| AUC_attr  0.1639| seen_open_attr_all_bias_max  0.766| unseen_open_attr_all_bias_max  0.4351| hm_open_attr_all_bias_max  0.3093| best_unseen  0.4354| best_seen  0.766| AUC  0.1639| best_hm  0.3093| 
+Test set:
+
+Testing:   0%|          | 0/21 [00:00<?, ?it/s]Testing:   5%|▍         | 1/21 [00:13<04:21, 13.05s/it]Testing:  14%|█▍        | 3/21 [00:27<02:35,  8.62s/it]Testing:  24%|██▍       | 5/21 [00:29<01:14,  4.67s/it]Testing:  33%|███▎      | 7/21 [00:46<01:28,  6.29s/it]Testing:  43%|████▎     | 9/21 [00:46<00:47,  3.95s/it]Testing:  48%|████▊     | 10/21 [00:50<00:44,  4.02s/it]Testing:  52%|█████▏    | 11/21 [00:56<00:45,  4.50s/it]Testing:  62%|██████▏   | 13/21 [00:58<00:25,  3.17s/it]Testing:  67%|██████▋   | 14/21 [01:01<00:20,  2.98s/it]Testing:  71%|███████▏  | 15/21 [01:02<00:15,  2.64s/it]Testing:  81%|████████  | 17/21 [01:06<00:09,  2.27s/it]Testing:  86%|████████▌ | 18/21 [01:12<00:09,  3.15s/it]Testing:  90%|█████████ | 19/21 [01:12<00:05,  2.52s/it]Testing:  95%|█████████▌| 20/21 [01:18<00:03,  3.21s/it]Testing: 100%|██████████| 21/21 [01:18<00:00,  3.73s/it]
+osdd_obj
+Top 1
+closed_attr_match  0.3225| closed_obj_match  1.0| AUC_attr  0.1303| seen_open_attr_all_bias_max  0.757| unseen_open_attr_all_bias_max  0.5251| hm_open_attr_all_bias_max  0.2313| best_unseen  0.5545| best_seen  0.757| AUC  0.1305| best_hm  0.2313| 

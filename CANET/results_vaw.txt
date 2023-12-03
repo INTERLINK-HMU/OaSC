@@ -1,0 +1,100 @@
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/vaw_obj/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/vaw_states/compcos_dif_val/resnet18_featurers.t7
+  Using resnet18 and feature file ./datasets/vaw_states/compcos_dif_val/resnet18_featurers.t7
+> Initialize model <CANet>
+  Load attribute word embeddings--
+word embedding/vaw_states_object_obj.save
+  Load object word embeddings--
+> Load saved trained model
+> Initialize evaluator
+  Evaluating with test pairs
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:00<00:00,  6.55it/s]
+tensor(0.8804) tensor(0.) tensor(0.) 0.25571427
+vaw_object
+|----Test Finished: Attr Acc: 38.70% | Obj Acc: 100.00% | Seen Acc: 87.83% | Unseen Acc: 54.54%  | HM: 35.60% | AUC: 25.57%.| Seen Acc attr: 87.83% | Unseen Acc attr: 53.38 | HM_attr: 35.60% | AUC_attr: 25.57%
+=== Program terminated ===
+Extracting features resnet18: 0it [00:00, ?it/s]Extracting features resnet18: 0it [00:00, ?it/s]
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/vaw_cw/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/vaw_states/resnet18_featurers.t7
+  Feature file not found. Now get one!
+Traceback (most recent call last):
+  File "test.py", line 161, in <module>
+    main()
+  File "test.py", line 41, in main
+    testset = dset.CompositionDataset(
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/CANET/data/dataset.py", line 158, in __init__
+    self.generate_features(feat_file, model)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/CANET/data/dataset.py", line 285, in generate_features
+    image_feats = torch.cat(image_feats, dim=0)
+RuntimeError: There were no tensor arguments to this function (e.g., you passed an empty list of Tensors), but no fallback function is registered for schema aten::_cat.  This usually means that this function requires a non-empty list of Tensors.  Available functions are [CPU, CUDA, QuantizedCPU, BackendSelect, Named, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, Tracer, Autocast, Batched, VmapMode].
+
+CPU: registered at /pytorch/build/aten/src/ATen/CPUType.cpp:2127 [kernel]
+CUDA: registered at /pytorch/build/aten/src/ATen/CUDAType.cpp:2983 [kernel]
+QuantizedCPU: registered at /pytorch/build/aten/src/ATen/QuantizedCPUType.cpp:297 [kernel]
+BackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]
+Named: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
+AutogradOther: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradCPU: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradCUDA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradXLA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse1: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse2: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse3: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+Tracer: registered at /pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:9654 [kernel]
+Autocast: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:258 [kernel]
+Batched: registered at /pytorch/aten/src/ATen/BatchingRegistrations.cpp:511 [backend fallback]
+VmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
+
+Extracting features resnet18: 0it [00:00, ?it/s]Extracting features resnet18: 0it [00:00, ?it/s]
+======== Welcome! ========
+> Program start
+> Initialize parameters
+  Load parameter values from file configs/vaw_ow/CANet.yml
+> Choose device: cuda:0
+> Load dataset
+  Using all pairs as classification classes during test process
+  Use data from test set
+./datasets/vaw_states/resnet18_featurers.t7
+  Feature file not found. Now get one!
+Traceback (most recent call last):
+  File "test.py", line 161, in <module>
+    main()
+  File "test.py", line 41, in main
+    testset = dset.CompositionDataset(
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/CANET/data/dataset.py", line 158, in __init__
+    self.generate_features(feat_file, model)
+  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/CANET/data/dataset.py", line 285, in generate_features
+    image_feats = torch.cat(image_feats, dim=0)
+RuntimeError: There were no tensor arguments to this function (e.g., you passed an empty list of Tensors), but no fallback function is registered for schema aten::_cat.  This usually means that this function requires a non-empty list of Tensors.  Available functions are [CPU, CUDA, QuantizedCPU, BackendSelect, Named, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, Tracer, Autocast, Batched, VmapMode].
+
+CPU: registered at /pytorch/build/aten/src/ATen/CPUType.cpp:2127 [kernel]
+CUDA: registered at /pytorch/build/aten/src/ATen/CUDAType.cpp:2983 [kernel]
+QuantizedCPU: registered at /pytorch/build/aten/src/ATen/QuantizedCPUType.cpp:297 [kernel]
+BackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]
+Named: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
+AutogradOther: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradCPU: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradCUDA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradXLA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse1: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse2: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+AutogradPrivateUse3: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
+Tracer: registered at /pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:9654 [kernel]
+Autocast: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:258 [kernel]
+Batched: registered at /pytorch/aten/src/ATen/BatchingRegistrations.cpp:511 [backend fallback]
+VmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
+

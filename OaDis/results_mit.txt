@@ -1,0 +1,106 @@
+Prepare dataset
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([5, 300])
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([13, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:03<00:00,  3.29s/it]Testing: 100%|██████████| 1/1 [00:03<00:00,  3.41s/it]mit_split2_tr_ow
+Top 1
+closed_attr_match  0.0476| closed_obj_match  0.4762| AUC_attr  -0.0748| seen_open_attr_all_bias_max  1.0| unseen_open_attr_all_bias_max  0.1905| hm_open_attr_all_bias_max  0.32| best_unseen  0.0| best_seen  0.9524| AUC  0.0| best_hm  0.0| 
+Test set:
+
+Testing:   0%|          | 0/2 [00:00<?, ?it/s]Testing:  50%|█████     | 1/2 [00:11<00:11, 11.12s/it]Testing: 100%|██████████| 2/2 [00:11<00:00,  5.67s/it]
+mit_split2_tr_ow
+Top 1
+closed_attr_match  0.2722| closed_obj_match  0.3381| AUC_attr  0.1246| seen_open_attr_all_bias_max  0.9394| unseen_open_attr_all_bias_max  0.2911| hm_open_attr_all_bias_max  0.2335| best_unseen  0.1519| best_seen  0.8788| AUC  0.0753| best_hm  0.1466| 
+Prepare dataset
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+# train pairs: 6 | # val pairs: 7 | # test pairs: 20
+# train images: 131 | # val images: 42 | # test images: 349
+closed is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([5, 300])
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([13, 300])
+Evaluating with validation pairs
+Evaluating with test pairs
+Val set:
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Testing:   0%|          | 0/1 [00:00<?, ?it/s]Testing: 100%|██████████| 1/1 [00:01<00:00,  1.74s/it]Testing: 100%|██████████| 1/1 [00:01<00:00,  1.87s/it]mit_split2_tr_cw
+Top 1
+closed_attr_match  0.7381| closed_obj_match  0.5| AUC_attr  0.737| seen_open_attr_all_bias_max  1.0| unseen_open_attr_all_bias_max  1.0| hm_open_attr_all_bias_max  0.9231| best_unseen  1.0| best_seen  0.9524| AUC  0.8639| best_hm  0.8163| 
+Test set:
+
+Testing:   0%|          | 0/2 [00:00<?, ?it/s]Testing:  50%|█████     | 1/2 [00:00<00:00,  1.57it/s]Testing: 100%|██████████| 2/2 [00:00<00:00,  2.32it/s]
+mit_split2_tr_cw
+Top 1
+closed_attr_match  0.2751| closed_obj_match  0.298| AUC_attr  0.1704| seen_open_attr_all_bias_max  0.9394| unseen_open_attr_all_bias_max  0.2943| hm_open_attr_all_bias_max  0.2784| best_unseen  0.2342| best_seen  0.9091| AUC  0.1394| best_hm  0.2382| 
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Prepare dataset
+# train pairs: 1 | # val pairs: 2 | # test pairs: 5
+# train images: 67 | # val images: 130 | # test images: 354
+closed is associated with <= 1 object: []
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: ['object']
+# train pairs: 1 | # val pairs: 2 | # test pairs: 5
+# train images: 67 | # val images: 130 | # test images: 354
+closed is associated with <= 1 object: []
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: ['object']
+# train pairs: 1 | # val pairs: 2 | # test pairs: 5
+# train images: 67 | # val images: 130 | # test images: 354
+closed is associated with <= 1 object: []
+empty is associated with <= 1 object: []
+filled is associated with <= 1 object: []
+folded is associated with <= 1 object: []
+open is associated with <= 1 object: ['object']
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([5, 300])
+Loaded embeddings from file ./datasets/mit-states/compcos_dif_val//../../glove/glove.6B.300d.txt torch.Size([1, 300])
+Traceback (most recent call last):
+  File "test.py", line 93, in <module>
+    model.load_state_dict(torch.load(path_to_model))
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/serialization.py", line 771, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/serialization.py", line 270, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/gouidis/anaconda3/envs/czsl_wrk/lib/python3.7/site-packages/torch/serialization.py", line 251, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'saved_models/mit_obj/mit_obj_ow_124/best.pth'
