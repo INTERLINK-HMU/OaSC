@@ -1,4 +1,4 @@
-cuda_device=1
+cuda_device=0
 
 
 
@@ -30,6 +30,15 @@ CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr
 CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr_cw" --auc  &>>"results_mit.txt"  
 
 CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/mit_split2_tr_object" --auc  &>>"results_mit.txt"  
+
+
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_ow"  --auc &> "results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_cw" --auc  &>>"results_vaw.txt"  
+
+CUDA_VISIBLE_DEVICES=$cuda_device python test.py --logpath "./logs/vaw_states_object" --auc  &>>"results_vaw.txt"  
+
 
 
 

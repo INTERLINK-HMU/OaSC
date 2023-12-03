@@ -19,6 +19,7 @@ conda activate AoSC
 ```
 cd src
 bash download_data.sh
+
 ```
 
 
@@ -30,21 +31,24 @@ After the  script completes, the repo must have the following folder structure.
 ├── datasets
 │   ├── cgqa
 │   ├── mit_states
-│   └── osdd
+│   ├── osdd
+│   └── vaw
 ├── embeddings
 │   ├── cgqa_emb.pred
 │   ├── mit_emb.pred
-│   └── osdd_emb.pred
+│   ├── osdd_emb.pred
+│   └── vaw_emb.pred
 ├── environment.yml
 ├── Material_for_save
 │   ├── datasets
 │   ├── saved_checkpoints
-│   └──split2
+│   └── split2
 ├── Readme.md
 ├── saved_checkpoints
 │   ├── cgqa
 │   ├── mit
-│   └── osdd
+│   ├── osdd
+│   └── vaw
 └── src
     ├── data
     ├── download_data.sh
@@ -60,6 +64,7 @@ After the  script completes, the repo must have the following folder structure.
     ├── test_gnn.sh
     ├── test_mit.sh
     ├── test_osdd.sh
+    ├── test_vaw.sh
     ├── test.py
     ├── test.sh
     ├── train_gnn.py
@@ -67,14 +72,15 @@ After the  script completes, the repo must have the following folder structure.
 </pre>
 
 
-# Testing
+## Testing
 
 **OSDD  Dataset**
 
 - To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_osdd.sh
+bash  test_osdd.sh
+
 ```
 
 **CGQA-States  Dataset**
@@ -82,7 +88,8 @@ After the  script completes, the repo must have the following folder structure.
 - To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_cgqa.sh
+bash  test_cgqa.sh
+
 ```
 
 **MIT-States  Dataset**
@@ -90,11 +97,19 @@ After the  script completes, the repo must have the following folder structure.
 - To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
-./test_mit.sh
+bash  test_mit.sh
+
+```
+**VAW  Dataset**
+
+- To reproduce the reported results for VAW Dataset, adjust the weights and the embeddings paths in test_vaw.sh and run:
+
+```
+bash  test_vaw.sh
+
 ```
 
-
-# Training from scratch
+## Training from scratch
 
 
 **Training of the GNN**
@@ -102,7 +117,8 @@ After the  script completes, the repo must have the following folder structure.
 - Run the following script to train the GNN:
 
 ```
-./train_gnn.sh
+bash train_gnn.sh
+
 ```
 
 
@@ -111,7 +127,8 @@ After the  script completes, the repo must have the following folder structure.
 - Run the following script to compute the embeddings:
 
 ```
-./test_gnn.sh
+bash  test_gnn.sh
+
 ```
 
 
@@ -122,14 +139,16 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_osdd.sh
+bash  finetune_osdd.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_osdd.sh
+bash  test_osdd.sh
+
 ```
 
 **CGQA-States  Dataset**
@@ -139,14 +158,16 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_cgqa.sh
+bash  finetune_cgqa.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_cgqa.sh
+bash  test_cgqa.sh
+
 ```
 
 **MIT-States  Dataset**
@@ -156,12 +177,34 @@ After the  script completes, the repo must have the following folder structure.
 
 
 ```
-./finetune_mit.sh
+bash  finetune_mit.sh
+
 ```
 
 - Adjust the weights path in the test_osdd.sh script and then run it:
 
 
 ```
-./test_mit.sh
+bash  test_mit.sh
+
 ```
+
+**VAW  Dataset**
+
+- Adjust the embeddings path in the finetune_vaw.sh script and then run it:
+
+
+
+```
+bash  finetune_mit.sh
+
+```
+
+- Adjust the weights path in the test_vaw.sh script and then run it:
+
+
+```
+bash  test_mit.sh
+
+```
+

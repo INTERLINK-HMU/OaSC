@@ -14,6 +14,7 @@ conda activate ade
 
 ## Preperation:
 - Download the datasets. the pretrained weights for and  the embeddings for the model by openning a terminal and running the following scripts in the terminal:
+- Download the datasets and  the embeddings for the model by openning a terminal and running the following script in the terminal:
 
 ```
 bash download_data.sh

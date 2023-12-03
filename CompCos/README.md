@@ -9,6 +9,7 @@ Create a conda environment `compcos` using
 ```
 conda env create -f environment.yml
 conda activate compcos
+
 ```
 
 ## Preperation:
@@ -17,94 +18,93 @@ conda activate compcos
 ```
 bash download_data.sh
 bash download_embeddings.sh
+
 ```
-<!-- 
 
-After the  script completes, the repo must have the following folder structure.
+## Download saved checkpoints:
+- Download the saved checkpoints running the following script in the terminal:
 
-<pre>
+```
+bash download_logs.sh
 
-./
-├── datasets
-│   ├── cgqa
-│   ├── mit_states
-│   └── osdd
-├── embeddings
-│   ├── cgqa_emb.pred
-│   ├── mit_emb.pred
-│   └── osdd_emb.pred
-├── environment.yml
-├── Material_for_save
-│   ├── datasets
-│   ├── saved_checkpoints
-│   └──split2
-├── Readme.md
-├── saved_checkpoints
-│   ├── cgqa
-│   ├── mit
-│   └── osdd
-└── src
-    ├── data
-    ├── download_data.sh
-    ├── finetune_cgqa.sh
-    ├── finetune_mit.sh
-    ├── finetune_osdd.sh
-    ├── finetune.py
-    ├── flags.py
-    ├── KG
-    ├── requirements2.yml
-    ├── requirements.txt
-    ├── test_cgqa.sh
-    ├── test_gnn.sh
-    ├── test_mit.sh
-    ├── test_osdd.sh
-    ├── test.py
-    ├── test.sh
-    ├── train_gnn.py
-    └── train_gnn.sh
-</pre> -->
+```
 
 
-# Testing
+## Testing
+
+- To reproduce the reported results run in the terminal the following. The script produces the results for
+AoP, le+, symnet, tmn and CompCos. The results for the osdd are saved in the file results_osdd.txt,
+the results for the cgqa are saved in the file results_cgqa.txt and the results for the mit are saved in 
+the file results_mit.txt.
 
 **OSDD  Dataset**
 
-- To reproduce the reported results for OSDD  Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
-python test.py --logpath "./logs/zero_shot_split1_tr_ow" --auc 
-
-python test.py --logpath "./logs/zero_shot_split1_tr_cw" --auc 
-
-python test.py --logpath "./logs/zero_shot_split1_tr_object" --auc 
-
+bash test_osdd.sh
 
 ```
 
 **CGQA-States  Dataset**
 
-- To reproduce the reported results for CGQA-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
-
 ```
-python test.py --logpath "./logs/cgqa_split2_tr_ow" --auc 
-
-python test.py --logpath "./logs/cgqa_split2_tr_cw"  --auc 
-
-python test.py --logpath "./logs/cgqa_split2_tr_object" --auc 
+bash test_cgqa.sh
 
 ```
 
 **MIT-States  Dataset**
 
-- To reproduce the reported results for MIT-States Dataset, adjust the weights and the embeddings paths in test_mit.sh and run:
 
 ```
- python test.py --logpath "./logs/mit_split2_tr_ow" --auc 
-
- python test.py --logpath "./logs/mit_split2_tr_cw" --auc  
-
- python test.py --logpath "./logs/mit_split2_tr_object"  --auc 
+bash test_mit.sh
 
 ```
+
+**MIT-States  Dataset**
+
+
+```
+bash test_vaw.sh
+
+```
+
+
+## Training from scratch
+
+
+To train from scratch run in the terminal the following. The script trains
+AoP, le+, symnet, tmn and CompCos. 
+
+**OSDD  Dataset**
+
+```
+bash train_osdd.sh
+
+```
+
+**CGQA-States  Dataset**
+
+```
+bash train_cgqa.sh
+
+```
+
+**MIT-States  Dataset**
+
+
+```
+bash train_mit.sh
+
+```
+
+
+
+**VAW Dataset**
+
+
+```
+bash train_vaw.sh
+
+```
+
 
 

@@ -4,3 +4,4 @@ logs/
 *.pth
 **/*.pth
 data/
+saved_models/

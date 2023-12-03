@@ -53,7 +53,7 @@ if __name__ == "__main__":
     
     print(args.dataset)
     
-    if(args.dataset=='osdd'):
+    if(args.dataset=='osdd' or args.dataset=='vaw'):
     
         classes_dict={
         
@@ -177,7 +177,7 @@ if __name__ == "__main__":
         
     if(graph_type!='random'):
         
-        if(args.dataset=='osdd'):
+        if(args.dataset=='osdd' or args.dataset=='vaw'):
             pred_vectors = pred_file["%s"%graph_type]#[2:4,:]
         else:
             if(len(pred_file["%s"%graph_type])>5):
@@ -310,7 +310,7 @@ if __name__ == "__main__":
             if(verbose):
                 print("gamma = %e  "%(gamma))
             
-            curs_preds=predictions.clone()
+            curs_preds=predictions.clone().detach()
             
             curs_preds[:, not_train_ids] += gamma
             total=0
@@ -353,7 +353,7 @@ if __name__ == "__main__":
             
             total = gts.shape[0]
            # print(predicted == gts)
-            correct = torch.tensor(predicted == gts).cpu().sum().item()
+            correct = (torch.tensor(predicted == gts).clone().detach()).cpu().sum().item()
             
             
             #print(labels)
@@ -363,11 +363,11 @@ if __name__ == "__main__":
             unseen_ids=[label not in train_ids for label in gts]
             total_s = gts[seen_ids].shape[0]
     
-            correct_s = torch.tensor(predicted[seen_ids] == gts[seen_ids]).cpu().sum().item()
+            correct_s = (torch.tensor(predicted[seen_ids] == gts[seen_ids]).clone().detach()).cpu().sum().item()
             
             
             total_un = gts[unseen_ids].shape[0]
-            correct_un = torch.tensor(predicted[unseen_ids] == gts[unseen_ids]).cpu().sum().item()
+            correct_un = (torch.tensor(predicted[unseen_ids] == gts[unseen_ids]).clone().detach()).cpu().sum().item()
             
             if(by_class):
                # predicted=predicted.cpu().numpy()
