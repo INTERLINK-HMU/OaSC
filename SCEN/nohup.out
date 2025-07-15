@@ -1,73 +1,0 @@
-Extracting features resnet18: 0it [00:00, ?it/s]Extracting features resnet18: 0it [00:00, ?it/s]
-use GPU:3
-all_split
-Using all pairs
-Dataset loaded
-Train pairs: 29, Validation pairs: 22, Test Pairs: 67
-Train images: 838, Validation images: 167, Test images: 1571
-Using resnet18 and feature file datasets/vaw_states/resnet18_features.t7
-Traceback (most recent call last):
-  File "test.py", line 214, in <module>
-    main()
-  File "test.py", line 35, in main
-    trainset = dset.CompositionDataset(
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/SCEN/data/dataset.py", line 718, in __init__
-    self.generate_features(feat_file, model)
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/SCEN/data/dataset.py", line 927, in generate_features
-    image_feats = torch.cat(image_feats, 0)
-RuntimeError: There were no tensor arguments to this function (e.g., you passed an empty list of Tensors), but no fallback function is registered for schema aten::_cat.  This usually means that this function requires a non-empty list of Tensors.  Available functions are [CPU, CUDA, QuantizedCPU, BackendSelect, Named, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, Tracer, Autocast, Batched, VmapMode].
-
-CPU: registered at /pytorch/build/aten/src/ATen/CPUType.cpp:2127 [kernel]
-CUDA: registered at /pytorch/build/aten/src/ATen/CUDAType.cpp:2983 [kernel]
-QuantizedCPU: registered at /pytorch/build/aten/src/ATen/QuantizedCPUType.cpp:297 [kernel]
-BackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]
-Named: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
-AutogradOther: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradCPU: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradCUDA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradXLA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse1: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse2: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse3: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-Tracer: registered at /pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:9654 [kernel]
-Autocast: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:258 [kernel]
-Batched: registered at /pytorch/aten/src/ATen/BatchingRegistrations.cpp:511 [backend fallback]
-VmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
-
-Extracting features resnet18: 0it [00:00, ?it/s]Extracting features resnet18: 0it [00:00, ?it/s]
-use GPU:3
-all_split
-Using all pairs
-Dataset loaded
-Train pairs: 29, Validation pairs: 22, Test Pairs: 67
-Train images: 838, Validation images: 167, Test images: 1571
-Using resnet18 and feature file datasets/vaw_states/resnet18_features.t7
-Traceback (most recent call last):
-  File "test.py", line 214, in <module>
-    main()
-  File "test.py", line 35, in main
-    trainset = dset.CompositionDataset(
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/SCEN/data/dataset.py", line 718, in __init__
-    self.generate_features(feat_file, model)
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/SCEN/data/dataset.py", line 927, in generate_features
-    image_feats = torch.cat(image_feats, 0)
-RuntimeError: There were no tensor arguments to this function (e.g., you passed an empty list of Tensors), but no fallback function is registered for schema aten::_cat.  This usually means that this function requires a non-empty list of Tensors.  Available functions are [CPU, CUDA, QuantizedCPU, BackendSelect, Named, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, Tracer, Autocast, Batched, VmapMode].
-
-CPU: registered at /pytorch/build/aten/src/ATen/CPUType.cpp:2127 [kernel]
-CUDA: registered at /pytorch/build/aten/src/ATen/CUDAType.cpp:2983 [kernel]
-QuantizedCPU: registered at /pytorch/build/aten/src/ATen/QuantizedCPUType.cpp:297 [kernel]
-BackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]
-Named: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
-AutogradOther: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradCPU: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradCUDA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradXLA: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse1: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse2: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-AutogradPrivateUse3: registered at /pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:8078 [autograd kernel]
-Tracer: registered at /pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:9654 [kernel]
-Autocast: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:258 [kernel]
-Batched: registered at /pytorch/aten/src/ATen/BatchingRegistrations.cpp:511 [backend fallback]
-VmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
-
-Extracting features resnet18:   0%|          | 0/2641 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 0/2641 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 0/2641 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 0/14576 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 0/14576 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 0/14576 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 1/2641 [07:50<344:48:06, 470.18s/it]Extracting features resnet18:   0%|          | 1/2641 [07:55<348:33:46, 475.31s/it]Extracting features resnet18:   0%|          | 1/2641 [07:57<350:27:54, 477.91s/it]Extracting features resnet18:   0%|          | 1/14576 [03:32<862:07:56, 212.95s/it]Extracting features resnet18:   0%|          | 1/14576 [03:33<864:11:21, 213.45s/it]Extracting features resnet18:   0%|          | 1/14576 [03:39<886:54:18, 219.06s/it]Extracting features resnet18:   0%|          | 2/2641 [10:47<218:14:02, 297.70s/it]Extracting features resnet18:   0%|          | 2/2641 [10:59<222:59:32, 304.20s/it]Extracting features resnet18:   0%|          | 2/2641 [11:04<224:49:08, 306.69s/it]Extracting features resnet18:   0%|          | 2/14576 [06:02<712:07:46, 175.91s/it]Extracting features resnet18:   0%|          | 2/14576 [06:01<705:02:08, 174.15s/it]Extracting features resnet18:   0%|          | 3/14576 [06:08<397:09:49, 98.11s/it] 

@@ -1,22 +1,0 @@
-Extracting features resnet18:   0%|          | 0/14576 [00:00<?, ?it/s]Extracting features resnet18:   0%|          | 1/14576 [00:02<9:21:31,  2.31s/it]Extracting features resnet18:   0%|          | 2/14576 [00:04<7:58:09,  1.97s/it]Extracting features resnet18:   0%|          | 3/14576 [00:06<8:43:04,  2.15s/it]Extracting features resnet18:   0%|          | 4/14576 [00:08<8:36:10,  2.13s/it]Extracting features resnet18:   0%|          | 5/14576 [00:10<8:21:45,  2.07s/it]Extracting features resnet18:   0%|          | 6/14576 [00:12<8:54:16,  2.20s/it]Extracting features resnet18:   0%|          | 7/14576 [00:15<9:41:47,  2.40s/it]Extracting features resnet18:   0%|          | 8/14576 [00:17<9:26:27,  2.33s/it]Extracting features resnet18:   0%|          | 9/14576 [00:19<9:02:00,  2.23s/it]Extracting features resnet18:   0%|          | 10/14576 [00:22<8:57:23,  2.21s/it]Extracting features resnet18:   0%|          | 11/14576 [00:24<8:38:10,  2.13s/it]Extracting features resnet18:   0%|          | 12/14576 [00:26<8:51:43,  2.19s/it]Extracting features resnet18:   0%|          | 13/14576 [00:28<8:35:23,  2.12s/it]Extracting features resnet18:   0%|          | 14/14576 [00:30<8:05:32,  2.00s/it]Extracting features resnet18:   0%|          | 15/14576 [00:32<8:05:02,  2.00s/it]Extracting features resnet18:   0%|          | 16/14576 [00:34<8:16:35,  2.05s/it]Extracting features resnet18:   0%|          | 17/14576 [00:36<8:17:08,  2.05s/it]Extracting features resnet18:   0%|          | 18/14576 [00:38<8:28:09,  2.09s/it]Extracting features resnet18:   0%|          | 19/14576 [00:40<8:44:42,  2.16s/it]Extracting features resnet18:   0%|          | 20/14576 [00:42<8:41:47,  2.15s/it]Extracting features resnet18:   0%|          | 21/14576 [00:44<8:31:42,  2.11s/it]Extracting features resnet18:   0%|          | 22/14576 [00:46<8:26:16,  2.09s/it]Extracting features resnet18:   0%|          | 23/14576 [00:49<8:31:15,  2.11s/it]Extracting features resnet18:   0%|          | 24/14576 [00:50<8:07:39,  2.01s/it]Extracting features resnet18:   0%|          | 25/14576 [00:53<8:19:56,  2.06s/it]Extracting features resnet18:   0%|          | 26/14576 [00:55<9:13:16,  2.28s/it]Extracting features resnet18:   0%|          | 27/14576 [00:57<8:29:42,  2.10s/it]Extracting features resnet18:   0%|          | 27/14576 [00:57<8:38:24,  2.14s/it]
-[('closed', 'object'), ('empty', 'object'), ('filled', 'object'), ('folded', 'object'), ('open', 'object')]
-Dataset loaded
-Train pairs: 1, Validation pairs: 2, Test Pairs: 5
-Train images: 492, Validation images: 105, Test images: 497
-Using resnet18 and feature file ./datasets/cgqa_states/compcos_dif_val/resnet18_features.t7
-Traceback (most recent call last):
-  File "test.py", line 138, in <module>
-    main()
-  File "test.py", line 30, in main
-    trainset = dset.CompositionDataset(
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 117, in __init__
-    self.generate_features(feat_file, model)
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 183, in generate_features
-    imgs = list(map(self.loader, files))
-  File "/mnt/10TB/gouidis/Exps_Code_15142_CVPR24/IVR/data/dataset.py", line 26, in __call__
-    img = Image.open(ospj(self.root_dir,img)).convert('RGB')
-  File "/home/gouidis/anaconda3/envs/czsl-scen/lib/python3.8/site-packages/PIL/Image.py", line 904, in convert
-    self.load()
-  File "/home/gouidis/anaconda3/envs/czsl-scen/lib/python3.8/site-packages/PIL/ImageFile.py", line 265, in load
-    n, err_code = decoder.decode(b)
-KeyboardInterrupt
